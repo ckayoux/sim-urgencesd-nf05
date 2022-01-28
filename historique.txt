@@ -1,0 +1,1608 @@
+
+	Le : 02/02/2002
+!02/02/2002!10:04$ : Le patient   1 (Antoine Parmentier) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:04$ : Le patient   1 (Antoine Parmentier) entre en $salle d'enregistrement.
+
+!02/02/2002!10:07$ : Le patient   1 (Antoine Parmentier) entre dans la $salle d'attente 2.
+!02/02/2002!10:07$ : Le patient   1 (Antoine Parmentier) entre en $salle d'examen IOA.
+
+!02/02/2002!10:08$ : Le patient   2 (Penelope Loriot) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:08$ : Le patient   2 (Penelope Loriot) entre en $salle d'enregistrement.
+
+!02/02/2002!10:12$ : Le patient   2 (Penelope Loriot) entre dans la $salle d'attente 2.
+
+!02/02/2002!10:13$ : Le patient   3 (Oceane Picard) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:13$ : Le patient   1 (Antoine Parmentier) entre dans la $salle d'attente 4.
+!02/02/2002!10:13$ : Le patient   2 (Penelope Loriot) entre en $salle d'examen IOA.
+!02/02/2002!10:13$ : Le patient   3 (Oceane Picard) entre en $salle d'enregistrement.
+!02/02/2002!10:13$ : Le patient   1 (Antoine Parmentier) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!10:15$ : Le patient   4 (Emmanuel Macron) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!10:16$ : Le patient   3 (Oceane Picard) entre dans la $salle d'attente 2.
+!02/02/2002!10:16$ : Le patient   4 (Emmanuel Macron) entre en $salle d'enregistrement.
+
+!02/02/2002!10:19$ : Le patient   2 (Penelope Loriot) entre dans la $salle d'attente 3.
+!02/02/2002!10:19$ : Le patient   3 (Oceane Picard) entre en $salle d'examen IOA.
+!02/02/2002!10:19$ : Le patient   4 (Emmanuel Macron) entre dans la $salle d'attente 2.
+!02/02/2002!10:19$ : Le patient   2 (Penelope Loriot) entre en $salle d'examens (circuit long), box 1.
+
+!02/02/2002!10:22$ : Le patient   5 (Bart Aba) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:22$ : Le patient   5 (Bart Aba) entre en $salle d'enregistrement.
+
+!02/02/2002!10:23$ : Le patient   6 (Jose Paldir) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!10:25$ : Le patient   5 (Bart Aba) entre dans la $salle d'attente 2.
+!02/02/2002!10:25$ : Le patient   6 (Jose Paldir) entre en $salle d'enregistrement.
+
+!02/02/2002!10:27$ : Le patient   3 (Oceane Picard) entre dans la $salle d'attente 4.
+!02/02/2002!10:27$ : Le patient   4 (Emmanuel Macron) entre en $salle d'examen IOA.
+!02/02/2002!10:27$ : Le patient   3 (Oceane Picard) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!10:28$ : Le patient   6 (Jose Paldir) entre dans la $salle d'attente 2.
+
+!02/02/2002!10:29$ : Le patient   7 (Jean-Peplu Duconfinement) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:29$ : Le patient   7 (Jean-Peplu Duconfinement) entre en $salle d'enregistrement.
+
+!02/02/2002!10:32$ : Le patient   7 (Jean-Peplu Duconfinement) entre dans la $salle d'attente 2.
+
+!02/02/2002!10:33$ : Le patient   4 (Emmanuel Macron) entre dans la $salle d'attente 3.
+!02/02/2002!10:33$ : Le patient   5 (Bart Aba) entre en $salle d'examen IOA.
+!02/02/2002!10:33$ : Le patient   4 (Emmanuel Macron) entre en $salle d'examens (circuit long), box 2.
+
+!02/02/2002!10:34$ : Le patient   8 (Garance Marillier) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:34$ : Le patient   8 (Garance Marillier) entre en $salle d'enregistrement.
+
+!02/02/2002!10:36$ : Le patient   9 (Christophe Lumine) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:36$ : Le patient   8 (Garance Marillier) entre dans la $salle d'attente 2.
+!02/02/2002!10:36$ : Le patient   9 (Christophe Lumine) entre en $salle d'enregistrement.
+
+!02/02/2002!10:39$ : Le patient   9 (Christophe Lumine) entre dans la $salle d'attente 2.
+
+!02/02/2002!10:41$ : Le patient   5 (Bart Aba) entre dans la $salle d'attente 4.
+!02/02/2002!10:41$ : Le patient   6 (Jose Paldir) entre en $salle d'examen IOA.
+
+!02/02/2002!10:43$ : Le patient  10 (Armand Bandouillere) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:43$ : Le patient  10 (Armand Bandouillere) entre en $salle d'enregistrement.
+
+!02/02/2002!10:44$ : Le patient  11 (Gerard Issime) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!10:46$ : Le patient  10 (Armand Bandouillere) entre dans la $salle d'attente 2.
+!02/02/2002!10:46$ : Le patient  11 (Gerard Issime) entre en $salle d'enregistrement.
+
+!02/02/2002!10:47$ : Le patient   6 (Jose Paldir) entre dans la $salle d'attente 3.
+!02/02/2002!10:47$ : Le patient   7 (Jean-Peplu Duconfinement) entre en $salle d'examen IOA.
+!02/02/2002!10:47$ : Le patient   6 (Jose Paldir) entre en $salle d'examens (circuit long), box 3.
+
+!02/02/2002!10:49$ : Le patient  11 (Gerard Issime) entre dans la $salle d'attente 2.
+
+!02/02/2002!10:51$ : Le patient   1 (Antoine Parmentier) $quitte le service des urgences.
+!02/02/2002!10:51$ : Le patient   5 (Bart Aba) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!10:52$ : Le patient  12 (Jean Cives) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:52$ : Le patient  12 (Jean Cives) entre en $salle d'enregistrement.
+
+!02/02/2002!10:55$ : Le patient  13 (Joe Retappo) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!10:55$ : Le patient   7 (Jean-Peplu Duconfinement) entre dans la $salle d'attente 4.
+!02/02/2002!10:55$ : Le patient   8 (Garance Marillier) entre en $salle d'examen IOA.
+
+!02/02/2002!10:56$ : Le patient  12 (Jean Cives) entre dans la $salle d'attente 2.
+!02/02/2002!10:56$ : Le patient  13 (Joe Retappo) entre en $salle d'enregistrement.
+
+!02/02/2002!10:57$ : Le patient  14 (Sandy Beech) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!10:58$ : Le patient  13 (Joe Retappo) entre dans la $salle d'attente 2.
+!02/02/2002!10:58$ : Le patient  14 (Sandy Beech) entre en $salle d'enregistrement.
+
+!02/02/2002!10:59$ : Le patient  15 (Emiliano Mercado) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!11:00$ : Le patient   8 (Garance Marillier) entre dans la $salle d'attente 4.
+!02/02/2002!11:00$ : Le patient   9 (Christophe Lumine) entre en $salle d'examen IOA.
+
+!02/02/2002!11:01$ : Le patient  14 (Sandy Beech) entre dans la $salle d'attente 2.
+!02/02/2002!11:01$ : Le patient  15 (Emiliano Mercado) entre en $salle d'enregistrement.
+
+!02/02/2002!11:04$ : Le patient  16 (Brice Lebas) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!11:04$ : Le patient   3 (Oceane Picard) $quitte le service des urgences.
+!02/02/2002!11:04$ : Le patient   7 (Jean-Peplu Duconfinement) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!11:06$ : Le patient  15 (Emiliano Mercado) entre dans la $salle d'attente 2.
+!02/02/2002!11:06$ : Le patient  16 (Brice Lebas) entre en $salle d'enregistrement.
+
+!02/02/2002!11:07$ : Le patient  17 (Ali Mentation) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!11:08$ : Le patient   9 (Christophe Lumine) entre dans la $salle d'attente 3.
+!02/02/2002!11:08$ : Le patient  10 (Armand Bandouillere) entre en $salle d'examen IOA.
+!02/02/2002!11:08$ : Le patient  16 (Brice Lebas) entre dans la $salle d'attente 2.
+!02/02/2002!11:08$ : Le patient  17 (Ali Mentation) entre en $salle d'enregistrement.
+
+!02/02/2002!11:10$ : Le patient  18 (Ovide Lapoubelle) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!11:11$ : Le patient  17 (Ali Mentation) entre dans la $salle d'attente 2.
+!02/02/2002!11:11$ : Le patient  18 (Ovide Lapoubelle) entre en $salle d'enregistrement.
+
+!02/02/2002!11:13$ : Le patient   2 (Penelope Loriot) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!11:13$ : Le patient   9 (Christophe Lumine) entre en $salle d'examens (circuit long), box 1.
+!02/02/2002!11:13$ : Le patient  10 (Armand Bandouillere) entre dans la $salle d'attente 3.
+!02/02/2002!11:13$ : Le patient  11 (Gerard Issime) entre en $salle d'examen IOA.
+
+!02/02/2002!11:14$ : Le patient  18 (Ovide Lapoubelle) entre dans la $salle d'attente 2.
+
+!02/02/2002!11:15$ : Le patient  19 (Aude Javel) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!11:15$ : Le patient  19 (Aude Javel) entre en $salle d'enregistrement.
+!02/02/2002!11:15$ : Le patient  20 (Sven Jonsson) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!11:18$ : Le patient  19 (Aude Javel) entre dans la $salle d'attente 2.
+!02/02/2002!11:18$ : Le patient  20 (Sven Jonsson) entre en $salle d'enregistrement.
+
+!02/02/2002!11:20$ : Le patient  20 (Sven Jonsson) entre dans la $salle d'attente 2.
+
+!02/02/2002!11:22$ : Le patient  11 (Gerard Issime) entre dans la $salle d'attente 4.
+!02/02/2002!11:22$ : Le patient  12 (Jean Cives) entre en $salle d'examen IOA.
+
+!02/02/2002!11:25$ : Le patient   6 (Jose Paldir) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!11:25$ : Le patient  10 (Armand Bandouillere) entre en $salle d'examens (circuit long), box 3.
+
+!02/02/2002!11:26$ : Le patient  21 (Mike Robes) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!11:26$ : Le patient  21 (Mike Robes) entre en $salle d'enregistrement.
+
+!02/02/2002!11:28$ : Le patient  12 (Jean Cives) entre dans la $salle d'attente 4.
+!02/02/2002!11:28$ : Le patient  13 (Joe Retappo) entre en $salle d'examen IOA.
+
+!02/02/2002!11:29$ : Le patient  21 (Mike Robes) entre dans la $salle d'attente 2.
+
+!02/02/2002!11:33$ : Le patient  13 (Joe Retappo) entre dans la $salle d'attente 4.
+!02/02/2002!11:33$ : Le patient  14 (Sandy Beech) entre en $salle d'examen IOA.
+
+!02/02/2002!11:35$ : Le patient   4 (Emmanuel Macron) $quitte le service des urgences.
+
+!02/02/2002!11:38$ : Le patient  14 (Sandy Beech) entre dans la $salle d'attente 4.
+!02/02/2002!11:38$ : Le patient  15 (Emiliano Mercado) entre en $salle d'examen IOA.
+
+!02/02/2002!11:39$ : Le patient  22 (Donald Trump) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!11:39$ : Le patient  22 (Donald Trump) entre en $salle d'enregistrement.
+
+!02/02/2002!11:42$ : Le patient  22 (Donald Trump) entre dans la $salle d'attente 2.
+
+!02/02/2002!11:44$ : Le patient  15 (Emiliano Mercado) entre dans la $salle d'attente 4.
+!02/02/2002!11:44$ : Le patient  16 (Brice Lebas) entre en $salle d'examen IOA.
+
+!02/02/2002!11:49$ : Le patient   7 (Jean-Peplu Duconfinement) $quitte le service des urgences.
+!02/02/2002!11:49$ : Le patient   8 (Garance Marillier) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!11:50$ : Le patient   5 (Bart Aba) $quitte le service des urgences.
+!02/02/2002!11:50$ : Le patient  11 (Gerard Issime) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!11:51$ : Le patient  23 (Damien Petrodzel) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!11:51$ : Le patient  23 (Damien Petrodzel) entre en $salle d'enregistrement.
+
+!02/02/2002!11:52$ : Le patient  16 (Brice Lebas) entre dans la $salle d'attente 4.
+!02/02/2002!11:52$ : Le patient  17 (Ali Mentation) entre en $salle d'examen IOA.
+
+!02/02/2002!11:53$ : Le patient  24 (Charles Otto-Fraaz) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!11:53$ : Le patient  23 (Damien Petrodzel) entre dans la $salle d'attente 2.
+!02/02/2002!11:53$ : Le patient  24 (Charles Otto-Fraaz) entre en $salle d'enregistrement.
+
+!02/02/2002!11:58$ : Le patient  24 (Charles Otto-Fraaz) entre dans la $salle d'attente 2.
+
+!02/02/2002!12:00$ : Le patient  17 (Ali Mentation) entre dans la $salle d'attente 4.
+!02/02/2002!12:00$ : Le patient  18 (Ovide Lapoubelle) entre en $salle d'examen IOA.
+
+!02/02/2002!12:02$ : Le patient  25 (Jeff Edepatt) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:02$ : Le patient  25 (Jeff Edepatt) entre en $salle d'enregistrement.
+
+!02/02/2002!12:05$ : Le patient  26 (Mateo Porthe) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:05$ : Le patient  25 (Jeff Edepatt) entre dans la $salle d'attente 2.
+!02/02/2002!12:05$ : Le patient  26 (Mateo Porthe) entre en $salle d'enregistrement.
+
+!02/02/2002!12:07$ : Le patient  27 (Chiyono Hasegawa) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:07$ : Le patient  26 (Mateo Porthe) entre dans la $salle d'attente 2.
+!02/02/2002!12:07$ : Le patient  27 (Chiyono Hasegawa) entre en $salle d'enregistrement.
+
+!02/02/2002!12:09$ : Le patient  18 (Ovide Lapoubelle) entre dans la $salle d'attente 4.
+!02/02/2002!12:09$ : Le patient  19 (Aude Javel) entre en $salle d'examen IOA.
+!02/02/2002!12:09$ : Le patient  27 (Chiyono Hasegawa) entre dans la $salle d'attente 2.
+
+!02/02/2002!12:11$ : Le patient  28 (Cecile Winksa) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:11$ : Le patient  28 (Cecile Winksa) entre en $salle d'enregistrement.
+
+!02/02/2002!12:16$ : Le patient  29 (Freddie Mercury) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:16$ : Le patient  28 (Cecile Winksa) entre dans la $salle d'attente 2.
+!02/02/2002!12:16$ : Le patient  29 (Freddie Mercury) entre en $salle d'enregistrement.
+
+!02/02/2002!12:17$ : Le patient  19 (Aude Javel) entre dans la $salle d'attente 4.
+!02/02/2002!12:17$ : Le patient  20 (Sven Jonsson) entre en $salle d'examen IOA.
+
+!02/02/2002!12:21$ : Le patient  30 (Astride Guerin) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:21$ : Le patient  29 (Freddie Mercury) entre dans la $salle d'attente 2.
+!02/02/2002!12:21$ : Le patient  30 (Astride Guerin) entre en $salle d'enregistrement.
+
+!02/02/2002!12:22$ : Le patient  20 (Sven Jonsson) entre dans la $salle d'attente 4.
+!02/02/2002!12:22$ : Le patient  21 (Mike Robes) entre en $salle d'examen IOA.
+
+!02/02/2002!12:24$ : Le patient  31 (Francois Mitterrand) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!12:26$ : Le patient  30 (Astride Guerin) entre dans la $salle d'attente 2.
+!02/02/2002!12:26$ : Le patient  31 (Francois Mitterrand) entre en $salle d'enregistrement.
+
+!02/02/2002!12:27$ : Le patient  32 (Mathew Beard) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:27$ : Le patient  21 (Mike Robes) entre dans la $salle d'attente 4.
+!02/02/2002!12:27$ : Le patient  22 (Donald Trump) entre en $salle d'examen IOA.
+
+!02/02/2002!12:29$ : Le patient  33 (Jennifer Niplan-Charepasset) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:29$ : Le patient  31 (Francois Mitterrand) entre dans la $salle d'attente 2.
+!02/02/2002!12:29$ : Le patient  32 (Mathew Beard) entre en $salle d'enregistrement.
+
+!02/02/2002!12:32$ : Le patient   2 (Penelope Loriot) $quitte le service des urgences.
+!02/02/2002!12:32$ : Le patient   9 (Christophe Lumine) est pris en charge au $box d'examen complementaire 1.
+
+!02/02/2002!12:34$ : Le patient  22 (Donald Trump) entre dans la $salle d'attente 4.
+!02/02/2002!12:34$ : Le patient  23 (Damien Petrodzel) entre en $salle d'examen IOA.
+!02/02/2002!12:34$ : Le patient  32 (Mathew Beard) entre dans la $salle d'attente 2.
+!02/02/2002!12:34$ : Le patient  33 (Jennifer Niplan-Charepasset) entre en $salle d'enregistrement.
+
+!02/02/2002!12:37$ : Le patient  34 (Manfred Desmieux) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:37$ : Le patient  33 (Jennifer Niplan-Charepasset) entre dans la $salle d'attente 2.
+!02/02/2002!12:37$ : Le patient  34 (Manfred Desmieux) entre en $salle d'enregistrement.
+
+!02/02/2002!12:40$ : Le patient  23 (Damien Petrodzel) entre dans la $salle d'attente 4.
+!02/02/2002!12:40$ : Le patient  24 (Charles Otto-Fraaz) entre en $salle d'examen IOA.
+
+!02/02/2002!12:41$ : Le patient  35 (Marjolaine Charlesbois) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:41$ : Le patient  34 (Manfred Desmieux) entre dans la $salle d'attente 2.
+!02/02/2002!12:41$ : Le patient  35 (Marjolaine Charlesbois) entre en $salle d'enregistrement.
+
+!02/02/2002!12:43$ : Le patient  35 (Marjolaine Charlesbois) entre dans la $salle d'attente 2.
+
+!02/02/2002!12:46$ : Le patient  36 (Barbara Daigoux) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:46$ : Le patient  36 (Barbara Daigoux) entre en $salle d'enregistrement.
+
+!02/02/2002!12:48$ : Le patient   6 (Jose Paldir) $quitte le service des urgences.
+!02/02/2002!12:48$ : Le patient  10 (Armand Bandouillere) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!12:48$ : Le patient  36 (Barbara Daigoux) entre dans la $salle d'attente 2.
+
+!02/02/2002!12:49$ : Le patient  37 (Elizabeth Adin) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:49$ : Le patient  24 (Charles Otto-Fraaz) entre dans la $salle d'attente 4.
+!02/02/2002!12:49$ : Le patient  25 (Jeff Edepatt) entre en $salle d'examen IOA.
+!02/02/2002!12:49$ : Le patient  37 (Elizabeth Adin) entre en $salle d'enregistrement.
+
+!02/02/2002!12:50$ : Le patient  11 (Gerard Issime) $quitte le service des urgences.
+!02/02/2002!12:50$ : Le patient  12 (Jean Cives) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!12:52$ : Le patient  37 (Elizabeth Adin) entre dans la $salle d'attente 2.
+
+!02/02/2002!12:53$ : Le patient   8 (Garance Marillier) $quitte le service des urgences.
+!02/02/2002!12:53$ : Le patient  13 (Joe Retappo) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!12:54$ : Le patient  38 (Raymond Beech) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:54$ : Le patient  38 (Raymond Beech) entre en $salle d'enregistrement.
+
+!02/02/2002!12:55$ : Le patient  25 (Jeff Edepatt) entre dans la $salle d'attente 4.
+!02/02/2002!12:55$ : Le patient  26 (Mateo Porthe) entre en $salle d'examen IOA.
+
+!02/02/2002!12:56$ : Le patient  38 (Raymond Beech) entre dans la $salle d'attente 2.
+
+!02/02/2002!12:59$ : Le patient  39 (Ella Rumpf) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!12:59$ : Le patient  39 (Ella Rumpf) entre en $salle d'enregistrement.
+
+!02/02/2002!13:00$ : Le patient  40 (Julien Allemand) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!13:02$ : Le patient  41 (Angele Pherm-Laporte) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!13:03$ : Le patient  26 (Mateo Porthe) entre dans la $salle d'attente 4.
+!02/02/2002!13:03$ : Le patient  27 (Chiyono Hasegawa) entre en $salle d'examen IOA.
+!02/02/2002!13:03$ : Le patient  39 (Ella Rumpf) entre dans la $salle d'attente 2.
+!02/02/2002!13:03$ : Le patient  40 (Julien Allemand) entre en $salle d'enregistrement.
+
+!02/02/2002!13:07$ : Le patient  40 (Julien Allemand) entre dans la $salle d'attente 2.
+!02/02/2002!13:07$ : Le patient  41 (Angele Pherm-Laporte) entre en $salle d'enregistrement.
+
+!02/02/2002!13:08$ : Le patient  42 (Farah Paupierre) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:08$ : Le patient  27 (Chiyono Hasegawa) entre dans la $salle d'attente 4.
+!02/02/2002!13:08$ : Le patient  28 (Cecile Winksa) entre en $salle d'examen IOA.
+
+!02/02/2002!13:10$ : Le patient  41 (Angele Pherm-Laporte) entre dans la $salle d'attente 2.
+!02/02/2002!13:10$ : Le patient  42 (Farah Paupierre) entre en $salle d'enregistrement.
+
+!02/02/2002!13:13$ : Le patient  28 (Cecile Winksa) entre dans la $salle d'attente 4.
+!02/02/2002!13:13$ : Le patient  29 (Freddie Mercury) entre en $salle d'examen IOA.
+
+!02/02/2002!13:14$ : Le patient  43 (Markos Kaiser) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!13:15$ : Le patient  42 (Farah Paupierre) entre dans la $salle d'attente 2.
+!02/02/2002!13:15$ : Le patient  43 (Markos Kaiser) entre en $salle d'enregistrement.
+
+!02/02/2002!13:17$ : Le patient  43 (Markos Kaiser) entre dans la $salle d'attente 2.
+
+!02/02/2002!13:19$ : Le patient  44 (Frances Allen) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:19$ : Le patient  44 (Frances Allen) entre en $salle d'enregistrement.
+
+!02/02/2002!13:21$ : Le patient  29 (Freddie Mercury) entre dans la $salle d'attente 4.
+!02/02/2002!13:21$ : Le patient  30 (Astride Guerin) entre en $salle d'examen IOA.
+
+!02/02/2002!13:23$ : Le patient  44 (Frances Allen) entre dans la $salle d'attente 2.
+
+!02/02/2002!13:28$ : Le patient  30 (Astride Guerin) entre dans la $salle d'attente 4.
+!02/02/2002!13:28$ : Le patient  31 (Francois Mitterrand) entre en $salle d'examen IOA.
+
+!02/02/2002!13:37$ : Le patient  31 (Francois Mitterrand) entre dans la $salle d'attente 4.
+!02/02/2002!13:37$ : Le patient  32 (Mathew Beard) entre en $salle d'examen IOA.
+
+!02/02/2002!13:38$ : Le patient  45 (Nabi Tajima) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:38$ : Le patient  45 (Nabi Tajima) entre en $salle d'enregistrement.
+
+!02/02/2002!13:42$ : Le patient  46 (Jean Castex) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:42$ : Le patient  45 (Nabi Tajima) entre dans la $salle d'attente 2.
+!02/02/2002!13:42$ : Le patient  46 (Jean Castex) entre en $salle d'enregistrement.
+
+!02/02/2002!13:44$ : Le patient  46 (Jean Castex) entre dans la $salle d'attente 2.
+
+!02/02/2002!13:45$ : Le patient  47 (Clea Molett) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:45$ : Le patient  32 (Mathew Beard) entre dans la $salle d'attente 4.
+!02/02/2002!13:45$ : Le patient  33 (Jennifer Niplan-Charepasset) entre en $salle d'examen IOA.
+!02/02/2002!13:45$ : Le patient  47 (Clea Molett) entre en $salle d'enregistrement.
+
+!02/02/2002!13:46$ : Le patient   9 (Christophe Lumine) $quitte le service des urgences.
+
+!02/02/2002!13:47$ : Le patient  47 (Clea Molett) entre dans la $salle d'attente 2.
+
+!02/02/2002!13:50$ : Le patient  13 (Joe Retappo) $quitte le service des urgences.
+!02/02/2002!13:50$ : Le patient  14 (Sandy Beech) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!13:50$ : Le patient  10 (Armand Bandouillere) $quitte le service des urgences.
+!02/02/2002!13:50$ : Le patient  33 (Jennifer Niplan-Charepasset) entre dans la $salle d'attente 4.
+!02/02/2002!13:50$ : Le patient  34 (Manfred Desmieux) entre en $salle d'examen IOA.
+
+!02/02/2002!13:51$ : Le patient  48 (Eva Picet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:51$ : Le patient  48 (Eva Picet) entre en $salle d'enregistrement.
+
+!02/02/2002!13:52$ : Le patient  12 (Jean Cives) $quitte le service des urgences.
+!02/02/2002!13:52$ : Le patient  15 (Emiliano Mercado) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!13:55$ : Le patient  49 (Neva Morris) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:55$ : Le patient  48 (Eva Picet) entre dans la $salle d'attente 2.
+!02/02/2002!13:55$ : Le patient  49 (Neva Morris) entre en $salle d'enregistrement.
+
+!02/02/2002!13:58$ : Le patient  34 (Manfred Desmieux) entre dans la $salle d'attente 4.
+!02/02/2002!13:58$ : Le patient  35 (Marjolaine Charlesbois) entre en $salle d'examen IOA.
+!02/02/2002!13:58$ : Le patient  49 (Neva Morris) entre dans la $salle d'attente 2.
+
+!02/02/2002!13:59$ : Le patient  50 (Peter Cole) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!13:59$ : Le patient  50 (Peter Cole) entre en $salle d'enregistrement.
+
+!02/02/2002!14:02$ : Le patient  51 (Lou Garoux) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:02$ : Le patient  50 (Peter Cole) entre dans la $salle d'attente 2.
+!02/02/2002!14:02$ : Le patient  51 (Lou Garoux) entre en $salle d'enregistrement.
+
+!02/02/2002!14:04$ : Le patient  35 (Marjolaine Charlesbois) entre dans la $salle d'attente 4.
+!02/02/2002!14:04$ : Le patient  36 (Barbara Daigoux) entre en $salle d'examen IOA.
+
+!02/02/2002!14:06$ : Le patient  51 (Lou Garoux) entre dans la $salle d'attente 2.
+
+!02/02/2002!14:09$ : Le patient  52 (Thomas Maurer) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:09$ : Le patient  52 (Thomas Maurer) entre en $salle d'enregistrement.
+
+!02/02/2002!14:13$ : Le patient  53 (Barnabe Petit) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:13$ : Le patient  36 (Barbara Daigoux) entre dans la $salle d'attente 4.
+!02/02/2002!14:13$ : Le patient  37 (Elizabeth Adin) entre en $salle d'examen IOA.
+
+!02/02/2002!14:14$ : Le patient  52 (Thomas Maurer) entre dans la $salle d'attente 2.
+!02/02/2002!14:14$ : Le patient  53 (Barnabe Petit) entre en $salle d'enregistrement.
+
+!02/02/2002!14:15$ : Le patient  54 (Charlotte Hughes) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!14:19$ : Le patient  53 (Barnabe Petit) entre dans la $salle d'attente 2.
+!02/02/2002!14:19$ : Le patient  54 (Charlotte Hughes) entre en $salle d'enregistrement.
+
+!02/02/2002!14:20$ : Le patient  55 (Claire Delune) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!14:22$ : Le patient  37 (Elizabeth Adin) entre dans la $salle d'attente 4.
+!02/02/2002!14:22$ : Le patient  38 (Raymond Beech) entre en $salle d'examen IOA.
+
+!02/02/2002!14:23$ : Le patient  54 (Charlotte Hughes) entre dans la $salle d'attente 2.
+!02/02/2002!14:23$ : Le patient  55 (Claire Delune) entre en $salle d'enregistrement.
+
+!02/02/2002!14:26$ : Le patient  56 (Geraud Thedaisolet) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!14:27$ : Le patient  55 (Claire Delune) entre dans la $salle d'attente 2.
+!02/02/2002!14:27$ : Le patient  56 (Geraud Thedaisolet) entre en $salle d'enregistrement.
+
+!02/02/2002!14:30$ : Le patient  57 (Cesar Aignet-Fonpeur) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:30$ : Le patient  56 (Geraud Thedaisolet) entre dans la $salle d'attente 2.
+!02/02/2002!14:30$ : Le patient  57 (Cesar Aignet-Fonpeur) entre en $salle d'enregistrement.
+
+!02/02/2002!14:31$ : Le patient  38 (Raymond Beech) entre dans la $salle d'attente 4.
+!02/02/2002!14:31$ : Le patient  39 (Ella Rumpf) entre en $salle d'examen IOA.
+
+!02/02/2002!14:32$ : Le patient  58 (Misao Okawa) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:32$ : Le patient  57 (Cesar Aignet-Fonpeur) entre dans la $salle d'attente 2.
+!02/02/2002!14:32$ : Le patient  58 (Misao Okawa) entre en $salle d'enregistrement.
+
+!02/02/2002!14:35$ : Le patient  15 (Emiliano Mercado) $quitte le service des urgences.
+!02/02/2002!14:35$ : Le patient  16 (Brice Lebas) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!14:36$ : Le patient  58 (Misao Okawa) entre dans la $salle d'attente 2.
+
+!02/02/2002!14:37$ : Le patient  39 (Ella Rumpf) entre dans la $salle d'attente 4.
+!02/02/2002!14:37$ : Le patient  40 (Julien Allemand) entre en $salle d'examen IOA.
+
+!02/02/2002!14:40$ : Le patient  59 (Emma Carennat) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:40$ : Le patient  59 (Emma Carennat) entre en $salle d'enregistrement.
+
+!02/02/2002!14:41$ : Le patient  60 (Ademar Paz-el-qaal) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!14:43$ : Le patient  40 (Julien Allemand) entre dans la $salle d'attente 4.
+!02/02/2002!14:43$ : Le patient  41 (Angele Pherm-Laporte) entre en $salle d'examen IOA.
+!02/02/2002!14:43$ : Le patient  59 (Emma Carennat) entre dans la $salle d'attente 2.
+!02/02/2002!14:43$ : Le patient  60 (Ademar Paz-el-qaal) entre en $salle d'enregistrement.
+
+!02/02/2002!14:44$ : Le patient  61 (Anne Kristiansen) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!14:45$ : Le patient  60 (Ademar Paz-el-qaal) entre dans la $salle d'attente 2.
+!02/02/2002!14:45$ : Le patient  61 (Anne Kristiansen) entre en $salle d'enregistrement.
+
+!02/02/2002!14:47$ : Le patient  61 (Anne Kristiansen) entre dans la $salle d'attente 2.
+
+!02/02/2002!14:48$ : Le patient  62 (Albert Camus) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:48$ : Le patient  62 (Albert Camus) entre en $salle d'enregistrement.
+
+!02/02/2002!14:49$ : Le patient  41 (Angele Pherm-Laporte) entre dans la $salle d'attente 4.
+!02/02/2002!14:49$ : Le patient  42 (Farah Paupierre) entre en $salle d'examen IOA.
+
+!02/02/2002!14:51$ : Le patient  62 (Albert Camus) entre dans la $salle d'attente 2.
+
+!02/02/2002!14:52$ : Le patient  63 (Sam Di) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:52$ : Le patient  63 (Sam Di) entre en $salle d'enregistrement.
+
+!02/02/2002!14:54$ : Le patient  14 (Sandy Beech) $quitte le service des urgences.
+!02/02/2002!14:54$ : Le patient  17 (Ali Mentation) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!14:56$ : Le patient  63 (Sam Di) entre dans la $salle d'attente 2.
+
+!02/02/2002!14:57$ : Le patient  42 (Farah Paupierre) entre dans la $salle d'attente 4.
+!02/02/2002!14:57$ : Le patient  43 (Markos Kaiser) entre en $salle d'examen IOA.
+
+!02/02/2002!14:59$ : Le patient  64 (Robert Judson) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!14:59$ : Le patient  64 (Robert Judson) entre en $salle d'enregistrement.
+
+!02/02/2002!15:01$ : Le patient  43 (Markos Kaiser) entre dans la $salle d'attente 4.
+!02/02/2002!15:01$ : Le patient  44 (Frances Allen) entre en $salle d'examen IOA.
+
+!02/02/2002!15:03$ : Le patient  65 (Elsa-Rose Laifleurs) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!15:04$ : Le patient  64 (Robert Judson) entre dans la $salle d'attente 2.
+!02/02/2002!15:04$ : Le patient  65 (Elsa-Rose Laifleurs) entre en $salle d'enregistrement.
+
+!02/02/2002!15:07$ : Le patient  44 (Frances Allen) entre dans la $salle d'attente 4.
+!02/02/2002!15:07$ : Le patient  45 (Nabi Tajima) entre en $salle d'examen IOA.
+
+!02/02/2002!15:08$ : Le patient  65 (Elsa-Rose Laifleurs) entre dans la $salle d'attente 2.
+
+!02/02/2002!15:10$ : Le patient  66 (David Picton) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!15:10$ : Le patient  66 (David Picton) entre en $salle d'enregistrement.
+
+!02/02/2002!15:14$ : Le patient  45 (Nabi Tajima) entre dans la $salle d'attente 4.
+!02/02/2002!15:14$ : Le patient  46 (Jean Castex) entre en $salle d'examen IOA.
+!02/02/2002!15:14$ : Le patient  66 (David Picton) entre dans la $salle d'attente 2.
+
+!02/02/2002!15:15$ : Le patient  16 (Brice Lebas) $quitte le service des urgences.
+!02/02/2002!15:15$ : Le patient  18 (Ovide Lapoubelle) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!15:20$ : Le patient  46 (Jean Castex) entre dans la $salle d'attente 4.
+!02/02/2002!15:20$ : Le patient  47 (Clea Molett) entre en $salle d'examen IOA.
+
+!02/02/2002!15:24$ : Le patient  67 (Kelly Diothe) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!15:24$ : Le patient  67 (Kelly Diothe) entre en $salle d'enregistrement.
+
+!02/02/2002!15:25$ : Le patient  47 (Clea Molett) entre dans la $salle d'attente 4.
+!02/02/2002!15:25$ : Le patient  48 (Eva Picet) entre en $salle d'examen IOA.
+
+!02/02/2002!15:28$ : Le patient  68 (Christian Mortensen) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!15:29$ : Le patient  48 (Eva Picet) entre dans la $salle d'attente 4.
+!02/02/2002!15:29$ : Le patient  49 (Neva Morris) entre en $salle d'examen IOA.
+!02/02/2002!15:29$ : Le patient  67 (Kelly Diothe) entre dans la $salle d'attente 2.
+!02/02/2002!15:29$ : Le patient  68 (Christian Mortensen) entre en $salle d'enregistrement.
+
+!02/02/2002!15:33$ : Le patient  69 (Margaret Needham) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!15:34$ : Le patient  49 (Neva Morris) entre dans la $salle d'attente 4.
+!02/02/2002!15:34$ : Le patient  50 (Peter Cole) entre en $salle d'examen IOA.
+!02/02/2002!15:34$ : Le patient  68 (Christian Mortensen) entre dans la $salle d'attente 2.
+!02/02/2002!15:34$ : Le patient  69 (Margaret Needham) entre en $salle d'enregistrement.
+
+!02/02/2002!15:35$ : Le patient  70 (Paulie Stirraine) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!15:37$ : Le patient  17 (Ali Mentation) $quitte le service des urgences.
+!02/02/2002!15:37$ : Le patient  19 (Aude Javel) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!15:38$ : Le patient  69 (Margaret Needham) entre dans la $salle d'attente 2.
+!02/02/2002!15:38$ : Le patient  70 (Paulie Stirraine) entre en $salle d'enregistrement.
+
+!02/02/2002!15:42$ : Le patient  71 (Amar Dy) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!15:42$ : Le patient  70 (Paulie Stirraine) entre dans la $salle d'attente 2.
+!02/02/2002!15:42$ : Le patient  71 (Amar Dy) entre en $salle d'enregistrement.
+
+!02/02/2002!15:43$ : Le patient  50 (Peter Cole) entre dans la $salle d'attente 4.
+!02/02/2002!15:43$ : Le patient  51 (Lou Garoux) entre en $salle d'examen IOA.
+
+!02/02/2002!15:45$ : Le patient  72 (Ethel Lang) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!15:47$ : Le patient  71 (Amar Dy) entre dans la $salle d'attente 2.
+!02/02/2002!15:47$ : Le patient  72 (Ethel Lang) entre en $salle d'enregistrement.
+
+!02/02/2002!15:48$ : Le patient  51 (Lou Garoux) entre dans la $salle d'attente 4.
+!02/02/2002!15:48$ : Le patient  52 (Thomas Maurer) entre en $salle d'examen IOA.
+
+!02/02/2002!15:49$ : Le patient  72 (Ethel Lang) entre dans la $salle d'attente 2.
+
+!02/02/2002!15:51$ : Le patient  18 (Ovide Lapoubelle) $quitte le service des urgences.
+!02/02/2002!15:51$ : Le patient  20 (Sven Jonsson) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!15:52$ : Le patient  73 (Lucrece Chagnon) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!15:52$ : Le patient  73 (Lucrece Chagnon) entre en $salle d'enregistrement.
+
+!02/02/2002!15:55$ : Le patient  73 (Lucrece Chagnon) entre dans la $salle d'attente 2.
+
+!02/02/2002!15:56$ : Le patient  74 (Juliette Doswell) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!15:56$ : Le patient  52 (Thomas Maurer) entre dans la $salle d'attente 4.
+!02/02/2002!15:56$ : Le patient  53 (Barnabe Petit) entre en $salle d'examen IOA.
+!02/02/2002!15:56$ : Le patient  74 (Juliette Doswell) entre en $salle d'enregistrement.
+
+!02/02/2002!16:00$ : Le patient  75 (Lucile Randon) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:00$ : Le patient  74 (Juliette Doswell) entre dans la $salle d'attente 2.
+!02/02/2002!16:00$ : Le patient  75 (Lucile Randon) entre en $salle d'enregistrement.
+
+!02/02/2002!16:02$ : Le patient  76 (Sarah Vigote) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:02$ : Le patient  53 (Barnabe Petit) entre dans la $salle d'attente 4.
+!02/02/2002!16:02$ : Le patient  54 (Charlotte Hughes) entre en $salle d'examen IOA.
+
+!02/02/2002!16:03$ : Le patient  75 (Lucile Randon) entre dans la $salle d'attente 2.
+!02/02/2002!16:03$ : Le patient  76 (Sarah Vigote) entre en $salle d'enregistrement.
+
+!02/02/2002!16:08$ : Le patient  77 (Ali Gator) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:08$ : Le patient  54 (Charlotte Hughes) entre dans la $salle d'attente 4.
+!02/02/2002!16:08$ : Le patient  55 (Claire Delune) entre en $salle d'examen IOA.
+!02/02/2002!16:08$ : Le patient  76 (Sarah Vigote) entre dans la $salle d'attente 2.
+!02/02/2002!16:08$ : Le patient  77 (Ali Gator) entre en $salle d'enregistrement.
+
+!02/02/2002!16:11$ : Le patient  77 (Ali Gator) entre dans la $salle d'attente 2.
+
+!02/02/2002!16:13$ : Le patient  78 (Gerard Depardieu) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:13$ : Le patient  78 (Gerard Depardieu) entre en $salle d'enregistrement.
+
+!02/02/2002!16:14$ : Le patient  55 (Claire Delune) entre dans la $salle d'attente 4.
+!02/02/2002!16:14$ : Le patient  56 (Geraud Thedaisolet) entre en $salle d'examen IOA.
+
+!02/02/2002!16:16$ : Le patient  78 (Gerard Depardieu) entre dans la $salle d'attente 2.
+
+!02/02/2002!16:18$ : Le patient  79 (Mark Twain) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:18$ : Le patient  79 (Mark Twain) entre en $salle d'enregistrement.
+
+!02/02/2002!16:20$ : Le patient  56 (Geraud Thedaisolet) entre dans la $salle d'attente 3.
+!02/02/2002!16:20$ : Le patient  57 (Cesar Aignet-Fonpeur) entre en $salle d'examen IOA.
+!02/02/2002!16:20$ : Le patient  56 (Geraud Thedaisolet) entre en $salle d'examens (circuit long), box 1.
+
+!02/02/2002!16:21$ : Le patient  79 (Mark Twain) entre dans la $salle d'attente 2.
+
+!02/02/2002!16:22$ : Le patient  80 (Jacques Ayoub) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:22$ : Le patient  80 (Jacques Ayoub) entre en $salle d'enregistrement.
+
+!02/02/2002!16:23$ : Le patient  81 (Violet Brown) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!16:26$ : Le patient  80 (Jacques Ayoub) entre dans la $salle d'attente 2.
+!02/02/2002!16:26$ : Le patient  81 (Violet Brown) entre en $salle d'enregistrement.
+
+!02/02/2002!16:27$ : Le patient  57 (Cesar Aignet-Fonpeur) entre dans la $salle d'attente 3.
+!02/02/2002!16:27$ : Le patient  58 (Misao Okawa) entre en $salle d'examen IOA.
+!02/02/2002!16:27$ : Le patient  57 (Cesar Aignet-Fonpeur) entre en $salle d'examens (circuit long), box 2.
+
+!02/02/2002!16:28$ : Le patient  81 (Violet Brown) entre dans la $salle d'attente 2.
+
+!02/02/2002!16:31$ : Le patient  82 (Mitoyo Kawate) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:31$ : Le patient  82 (Mitoyo Kawate) entre en $salle d'enregistrement.
+
+!02/02/2002!16:33$ : Le patient  20 (Sven Jonsson) $quitte le service des urgences.
+!02/02/2002!16:33$ : Le patient  21 (Mike Robes) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!16:34$ : Le patient  58 (Misao Okawa) entre dans la $salle d'attente 3.
+!02/02/2002!16:34$ : Le patient  59 (Emma Carennat) entre en $salle d'examen IOA.
+!02/02/2002!16:34$ : Le patient  82 (Mitoyo Kawate) entre dans la $salle d'attente 2.
+!02/02/2002!16:34$ : Le patient  58 (Misao Okawa) entre en $salle d'examens (circuit long), box 3.
+
+!02/02/2002!16:36$ : Le patient  83 (Jeanne Bot) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:36$ : Le patient  83 (Jeanne Bot) entre en $salle d'enregistrement.
+
+!02/02/2002!16:37$ : Le patient  84 (Elaine Billington) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!16:38$ : Le patient  85 (Omar Sy) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!16:39$ : Le patient  83 (Jeanne Bot) entre dans la $salle d'attente 2.
+!02/02/2002!16:39$ : Le patient  84 (Elaine Billington) entre en $salle d'enregistrement.
+
+!02/02/2002!16:40$ : Le patient  19 (Aude Javel) $quitte le service des urgences.
+!02/02/2002!16:40$ : Le patient  22 (Donald Trump) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!16:42$ : Le patient  59 (Emma Carennat) entre dans la $salle d'attente 3.
+!02/02/2002!16:42$ : Le patient  60 (Ademar Paz-el-qaal) entre en $salle d'examen IOA.
+
+!02/02/2002!16:43$ : Le patient  84 (Elaine Billington) entre dans la $salle d'attente 2.
+!02/02/2002!16:43$ : Le patient  85 (Omar Sy) entre en $salle d'enregistrement.
+
+!02/02/2002!16:47$ : Le patient  85 (Omar Sy) entre dans la $salle d'attente 2.
+
+!02/02/2002!16:48$ : Le patient  60 (Ademar Paz-el-qaal) entre dans la $salle d'attente 3.
+!02/02/2002!16:48$ : Le patient  61 (Anne Kristiansen) entre en $salle d'examen IOA.
+
+!02/02/2002!16:51$ : Le patient  86 (Maria Capovilla) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:51$ : Le patient  86 (Maria Capovilla) entre en $salle d'enregistrement.
+
+!02/02/2002!16:52$ : Le patient  87 (Camilla Cabello) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!16:53$ : Le patient  61 (Anne Kristiansen) entre dans la $salle d'attente 3.
+!02/02/2002!16:53$ : Le patient  62 (Albert Camus) entre en $salle d'examen IOA.
+
+!02/02/2002!16:54$ : Le patient  88 (Mario Nett) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!16:54$ : Le patient  86 (Maria Capovilla) entre dans la $salle d'attente 2.
+!02/02/2002!16:54$ : Le patient  87 (Camilla Cabello) entre en $salle d'enregistrement.
+
+!02/02/2002!16:59$ : Le patient  87 (Camilla Cabello) entre dans la $salle d'attente 2.
+!02/02/2002!16:59$ : Le patient  88 (Mario Nett) entre en $salle d'enregistrement.
+
+!02/02/2002!17:00$ : Le patient  62 (Albert Camus) entre dans la $salle d'attente 3.
+!02/02/2002!17:00$ : Le patient  63 (Sam Di) entre en $salle d'examen IOA.
+
+!02/02/2002!17:01$ : Le patient  56 (Geraud Thedaisolet) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!17:01$ : Le patient  59 (Emma Carennat) entre en $salle d'examens (circuit long), box 1.
+
+!02/02/2002!17:03$ : Le patient  88 (Mario Nett) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:05$ : Le patient  63 (Sam Di) entre dans la $salle d'attente 3.
+!02/02/2002!17:05$ : Le patient  64 (Robert Judson) entre en $salle d'examen IOA.
+
+!02/02/2002!17:11$ : Le patient  89 (Tom Connaughton) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:11$ : Le patient  89 (Tom Connaughton) entre en $salle d'enregistrement.
+
+!02/02/2002!17:12$ : Le patient  64 (Robert Judson) entre dans la $salle d'attente 3.
+!02/02/2002!17:12$ : Le patient  65 (Elsa-Rose Laifleurs) entre en $salle d'examen IOA.
+
+!02/02/2002!17:15$ : Le patient  89 (Tom Connaughton) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:16$ : Le patient  90 (Eugene Roshal) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:16$ : Le patient  90 (Eugene Roshal) entre en $salle d'enregistrement.
+
+!02/02/2002!17:17$ : Le patient  65 (Elsa-Rose Laifleurs) entre dans la $salle d'attente 3.
+!02/02/2002!17:17$ : Le patient  66 (David Picton) entre en $salle d'examen IOA.
+
+!02/02/2002!17:18$ : Le patient  22 (Donald Trump) $quitte le service des urgences.
+!02/02/2002!17:18$ : Le patient  23 (Damien Petrodzel) entre en $salle d'examens (circuit court), box 5.
+!02/02/2002!17:18$ : Le patient  58 (Misao Okawa) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!17:18$ : Le patient  60 (Ademar Paz-el-qaal) entre en $salle d'examens (circuit long), box 3.
+!02/02/2002!17:18$ : Le patient  90 (Eugene Roshal) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:19$ : Le patient  91 (Pierre Beauseroy) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:19$ : Le patient  91 (Pierre Beauseroy) entre en $salle d'enregistrement.
+
+!02/02/2002!17:21$ : Le patient  91 (Pierre Beauseroy) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:23$ : Le patient  21 (Mike Robes) $quitte le service des urgences.
+!02/02/2002!17:23$ : Le patient  24 (Charles Otto-Fraaz) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!17:26$ : Le patient  92 (Yvon Anbavet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:26$ : Le patient  66 (David Picton) entre dans la $salle d'attente 3.
+!02/02/2002!17:26$ : Le patient  67 (Kelly Diothe) entre en $salle d'examen IOA.
+!02/02/2002!17:26$ : Le patient  92 (Yvon Anbavet) entre en $salle d'enregistrement.
+
+!02/02/2002!17:28$ : Le patient  93 (Andy Vaugeambon) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:28$ : Le patient  92 (Yvon Anbavet) entre dans la $salle d'attente 2.
+!02/02/2002!17:28$ : Le patient  93 (Andy Vaugeambon) entre en $salle d'enregistrement.
+
+!02/02/2002!17:31$ : Le patient  93 (Andy Vaugeambon) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:34$ : Le patient  94 (Susie Gibson) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:34$ : Le patient  67 (Kelly Diothe) entre dans la $salle d'attente 3.
+!02/02/2002!17:34$ : Le patient  68 (Christian Mortensen) entre en $salle d'examen IOA.
+!02/02/2002!17:34$ : Le patient  94 (Susie Gibson) entre en $salle d'enregistrement.
+
+!02/02/2002!17:37$ : Le patient  94 (Susie Gibson) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:38$ : Le patient  95 (Jeremy Ade) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:38$ : Le patient  95 (Jeremy Ade) entre en $salle d'enregistrement.
+
+!02/02/2002!17:42$ : Le patient  96 (Stacy Jolly) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:42$ : Le patient  68 (Christian Mortensen) entre dans la $salle d'attente 3.
+!02/02/2002!17:42$ : Le patient  69 (Margaret Needham) entre en $salle d'examen IOA.
+
+!02/02/2002!17:43$ : Le patient  95 (Jeremy Ade) entre dans la $salle d'attente 2.
+!02/02/2002!17:43$ : Le patient  96 (Stacy Jolly) entre en $salle d'enregistrement.
+
+!02/02/2002!17:48$ : Le patient  96 (Stacy Jolly) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:49$ : Le patient  97 (Salomon Barrere) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:49$ : Le patient  69 (Margaret Needham) entre dans la $salle d'attente 3.
+!02/02/2002!17:49$ : Le patient  70 (Paulie Stirraine) entre en $salle d'examen IOA.
+!02/02/2002!17:49$ : Le patient  97 (Salomon Barrere) entre en $salle d'enregistrement.
+
+!02/02/2002!17:50$ : Le patient  98 (Hide Ohiri) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!17:52$ : Le patient  97 (Salomon Barrere) entre dans la $salle d'attente 2.
+!02/02/2002!17:52$ : Le patient  98 (Hide Ohiri) entre en $salle d'enregistrement.
+
+!02/02/2002!17:54$ : Le patient  56 (Geraud Thedaisolet) $quitte le service des urgences.
+!02/02/2002!17:54$ : Le patient  59 (Emma Carennat) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!17:54$ : Le patient  61 (Anne Kristiansen) entre en $salle d'examens (circuit long), box 1.
+!02/02/2002!17:54$ : Le patient  98 (Hide Ohiri) entre dans la $salle d'attente 2.
+
+!02/02/2002!17:55$ : Le patient  70 (Paulie Stirraine) entre dans la $salle d'attente 3.
+!02/02/2002!17:55$ : Le patient  71 (Amar Dy) entre en $salle d'examen IOA.
+
+!02/02/2002!17:56$ : Le patient  99 (Cedric Chuquet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:56$ : Le patient  99 (Cedric Chuquet) entre en $salle d'enregistrement.
+
+!02/02/2002!17:59$ : Le patient 100 (Lily Depp) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!17:59$ : Le patient  99 (Cedric Chuquet) entre dans la $salle d'attente 2.
+!02/02/2002!17:59$ : Le patient 100 (Lily Depp) entre en $salle d'enregistrement.
+
+!02/02/2002!18:00$ : Le patient  71 (Amar Dy) entre dans la $salle d'attente 3.
+!02/02/2002!18:00$ : Le patient  72 (Ethel Lang) entre en $salle d'examen IOA.
+
+!02/02/2002!18:03$ : Le patient 100 (Lily Depp) entre dans la $salle d'attente 2.
+
+!02/02/2002!18:04$ : Le patient  72 (Ethel Lang) entre dans la $salle d'attente 3.
+!02/02/2002!18:04$ : Le patient  73 (Lucrece Chagnon) entre en $salle d'examen IOA.
+
+!02/02/2002!18:05$ : Le patient  23 (Damien Petrodzel) $quitte le service des urgences.
+!02/02/2002!18:05$ : Le patient  25 (Jeff Edepatt) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!18:07$ : Le patient 101 (Khaled Oskour) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:07$ : Le patient 101 (Khaled Oskour) entre en $salle d'enregistrement.
+
+!02/02/2002!18:09$ : Le patient  73 (Lucrece Chagnon) entre dans la $salle d'attente 3.
+!02/02/2002!18:09$ : Le patient  74 (Juliette Doswell) entre en $salle d'examen IOA.
+
+!02/02/2002!18:10$ : Le patient 101 (Khaled Oskour) entre dans la $salle d'attente 2.
+
+!02/02/2002!18:13$ : Le patient 102 (Jacques Sonne) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:13$ : Le patient 102 (Jacques Sonne) entre en $salle d'enregistrement.
+
+!02/02/2002!18:14$ : Le patient 103 (Tane Ikai) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!18:15$ : Le patient  74 (Juliette Doswell) entre dans la $salle d'attente 3.
+!02/02/2002!18:15$ : Le patient  75 (Lucile Randon) entre en $salle d'examen IOA.
+
+!02/02/2002!18:16$ : Le patient 104 (Eric Entonnet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:16$ : Le patient 102 (Jacques Sonne) entre dans la $salle d'attente 2.
+!02/02/2002!18:16$ : Le patient 103 (Tane Ikai) entre en $salle d'enregistrement.
+
+!02/02/2002!18:20$ : Le patient  24 (Charles Otto-Fraaz) $quitte le service des urgences.
+!02/02/2002!18:20$ : Le patient  26 (Mateo Porthe) entre en $salle d'examens (circuit court), box 4.
+!02/02/2002!18:20$ : Le patient 103 (Tane Ikai) entre dans la $salle d'attente 2.
+!02/02/2002!18:20$ : Le patient 104 (Eric Entonnet) entre en $salle d'enregistrement.
+
+!02/02/2002!18:21$ : Le patient  58 (Misao Okawa) $quitte le service des urgences.
+!02/02/2002!18:21$ : Le patient  57 (Cesar Aignet-Fonpeur) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!18:21$ : Le patient  62 (Albert Camus) entre en $salle d'examens (circuit long), box 2.
+
+!02/02/2002!18:24$ : Le patient  75 (Lucile Randon) entre dans la $salle d'attente 3.
+!02/02/2002!18:24$ : Le patient  76 (Sarah Vigote) entre en $salle d'examen IOA.
+
+!02/02/2002!18:25$ : Le patient 105 (George Clooney) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:25$ : Le patient 104 (Eric Entonnet) entre dans la $salle d'attente 2.
+!02/02/2002!18:25$ : Le patient 105 (George Clooney) entre en $salle d'enregistrement.
+
+!02/02/2002!18:26$ : Le patient 106 (Dean Oucissawa) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!18:28$ : Le patient  76 (Sarah Vigote) entre dans la $salle d'attente 3.
+!02/02/2002!18:28$ : Le patient  77 (Ali Gator) entre en $salle d'examen IOA.
+!02/02/2002!18:28$ : Le patient 105 (George Clooney) entre dans la $salle d'attente 2.
+!02/02/2002!18:28$ : Le patient 106 (Dean Oucissawa) entre en $salle d'enregistrement.
+
+!02/02/2002!18:33$ : Le patient 106 (Dean Oucissawa) entre dans la $salle d'attente 2.
+
+!02/02/2002!18:35$ : Le patient 107 (Neil Anderson) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:35$ : Le patient 107 (Neil Anderson) entre en $salle d'enregistrement.
+
+!02/02/2002!18:36$ : Le patient  77 (Ali Gator) entre dans la $salle d'attente 3.
+!02/02/2002!18:36$ : Le patient  78 (Gerard Depardieu) entre en $salle d'examen IOA.
+
+!02/02/2002!18:38$ : Le patient 108 (Rhoda Camel) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:38$ : Le patient 107 (Neil Anderson) entre dans la $salle d'attente 2.
+!02/02/2002!18:38$ : Le patient 108 (Rhoda Camel) entre en $salle d'enregistrement.
+
+!02/02/2002!18:41$ : Le patient 109 (Colin Jones) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:41$ : Le patient  78 (Gerard Depardieu) entre dans la $salle d'attente 3.
+!02/02/2002!18:41$ : Le patient  79 (Mark Twain) entre en $salle d'examen IOA.
+
+!02/02/2002!18:42$ : Le patient 108 (Rhoda Camel) entre dans la $salle d'attente 2.
+!02/02/2002!18:42$ : Le patient 109 (Colin Jones) entre en $salle d'enregistrement.
+
+!02/02/2002!18:44$ : Le patient 109 (Colin Jones) entre dans la $salle d'attente 2.
+
+!02/02/2002!18:47$ : Le patient 110 (Simon Cussonet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:47$ : Le patient 110 (Simon Cussonet) entre en $salle d'enregistrement.
+
+!02/02/2002!18:50$ : Le patient  79 (Mark Twain) entre dans la $salle d'attente 3.
+!02/02/2002!18:50$ : Le patient  80 (Jacques Ayoub) entre en $salle d'examen IOA.
+!02/02/2002!18:50$ : Le patient 110 (Simon Cussonet) entre dans la $salle d'attente 2.
+
+!02/02/2002!18:57$ : Le patient 111 (Edith Orial) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!18:57$ : Le patient 111 (Edith Orial) entre en $salle d'enregistrement.
+
+!02/02/2002!18:58$ : Le patient  80 (Jacques Ayoub) entre dans la $salle d'attente 3.
+!02/02/2002!18:58$ : Le patient  81 (Violet Brown) entre en $salle d'examen IOA.
+
+!02/02/2002!19:00$ : Le patient 111 (Edith Orial) entre dans la $salle d'attente 2.
+
+!02/02/2002!19:02$ : Le patient 112 (Amour Hirderyr) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:02$ : Le patient 112 (Amour Hirderyr) entre en $salle d'enregistrement.
+
+!02/02/2002!19:04$ : Le patient  25 (Jeff Edepatt) $quitte le service des urgences.
+!02/02/2002!19:04$ : Le patient  27 (Chiyono Hasegawa) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!19:06$ : Le patient 113 (Mohammed Afarsa) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:06$ : Le patient  81 (Violet Brown) entre dans la $salle d'attente 3.
+!02/02/2002!19:06$ : Le patient  82 (Mitoyo Kawate) entre en $salle d'examen IOA.
+!02/02/2002!19:06$ : Le patient 112 (Amour Hirderyr) entre dans la $salle d'attente 2.
+!02/02/2002!19:06$ : Le patient 113 (Mohammed Afarsa) entre en $salle d'enregistrement.
+
+!02/02/2002!19:09$ : Le patient  26 (Mateo Porthe) $quitte le service des urgences.
+!02/02/2002!19:09$ : Le patient  28 (Cecile Winksa) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!19:10$ : Le patient 114 (Jack Pott) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!19:11$ : Le patient 113 (Mohammed Afarsa) entre dans la $salle d'attente 2.
+!02/02/2002!19:11$ : Le patient 114 (Jack Pott) entre en $salle d'enregistrement.
+
+!02/02/2002!19:14$ : Le patient  57 (Cesar Aignet-Fonpeur) $quitte le service des urgences.
+!02/02/2002!19:14$ : Le patient  61 (Anne Kristiansen) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!19:14$ : Le patient  63 (Sam Di) entre en $salle d'examens (circuit long), box 1.
+!02/02/2002!19:14$ : Le patient  82 (Mitoyo Kawate) entre dans la $salle d'attente 3.
+!02/02/2002!19:14$ : Le patient  83 (Jeanne Bot) entre en $salle d'examen IOA.
+!02/02/2002!19:14$ : Le patient 114 (Jack Pott) entre dans la $salle d'attente 2.
+
+!02/02/2002!19:15$ : Le patient  59 (Emma Carennat) $quitte le service des urgences.
+!02/02/2002!19:15$ : Le patient  62 (Albert Camus) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!19:15$ : Le patient  64 (Robert Judson) entre en $salle d'examens (circuit long), box 2.
+
+!02/02/2002!19:17$ : Le patient 115 (Thomas Tfarsi) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:17$ : Le patient 115 (Thomas Tfarsi) entre en $salle d'enregistrement.
+
+!02/02/2002!19:19$ : Le patient  83 (Jeanne Bot) entre dans la $salle d'attente 3.
+!02/02/2002!19:19$ : Le patient  84 (Elaine Billington) entre en $salle d'examen IOA.
+
+!02/02/2002!19:21$ : Le patient 116 (Paul Lonnet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:21$ : Le patient 115 (Thomas Tfarsi) entre dans la $salle d'attente 2.
+!02/02/2002!19:21$ : Le patient 116 (Paul Lonnet) entre en $salle d'enregistrement.
+
+!02/02/2002!19:24$ : Le patient 117 (Antonia Gerena) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:24$ : Le patient  84 (Elaine Billington) entre dans la $salle d'attente 3.
+!02/02/2002!19:24$ : Le patient  85 (Omar Sy) entre en $salle d'examen IOA.
+
+!02/02/2002!19:26$ : Le patient 116 (Paul Lonnet) entre dans la $salle d'attente 2.
+!02/02/2002!19:26$ : Le patient 117 (Antonia Gerena) entre en $salle d'enregistrement.
+
+!02/02/2002!19:29$ : Le patient  85 (Omar Sy) entre dans la $salle d'attente 3.
+!02/02/2002!19:29$ : Le patient  86 (Maria Capovilla) entre en $salle d'examen IOA.
+
+!02/02/2002!19:30$ : Le patient 118 (Barack Obama) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!19:31$ : Le patient 117 (Antonia Gerena) entre dans la $salle d'attente 2.
+!02/02/2002!19:31$ : Le patient 118 (Barack Obama) entre en $salle d'enregistrement.
+
+!02/02/2002!19:34$ : Le patient  86 (Maria Capovilla) entre dans la $salle d'attente 3.
+!02/02/2002!19:34$ : Le patient  87 (Camilla Cabello) entre en $salle d'examen IOA.
+!02/02/2002!19:34$ : Le patient 118 (Barack Obama) entre dans la $salle d'attente 2.
+
+!02/02/2002!19:35$ : Le patient 119 (Camel Leon) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:35$ : Le patient 119 (Camel Leon) entre en $salle d'enregistrement.
+
+!02/02/2002!19:38$ : Le patient 120 (Carole Avillus) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:38$ : Le patient 119 (Camel Leon) entre dans la $salle d'attente 2.
+!02/02/2002!19:38$ : Le patient 120 (Carole Avillus) entre en $salle d'enregistrement.
+
+!02/02/2002!19:40$ : Le patient 120 (Carole Avillus) entre dans la $salle d'attente 2.
+
+!02/02/2002!19:43$ : Le patient  87 (Camilla Cabello) entre dans la $salle d'attente 3.
+!02/02/2002!19:43$ : Le patient  88 (Mario Nett) entre en $salle d'examen IOA.
+
+!02/02/2002!19:46$ : Le patient 121 (Mouammar Kadhafi) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:46$ : Le patient  27 (Chiyono Hasegawa) $quitte le service des urgences.
+!02/02/2002!19:46$ : Le patient  29 (Freddie Mercury) entre en $salle d'examens (circuit court), box 5.
+!02/02/2002!19:46$ : Le patient 121 (Mouammar Kadhafi) entre en $salle d'enregistrement.
+
+!02/02/2002!19:48$ : Le patient 122 (Alban Ray) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!19:49$ : Le patient 121 (Mouammar Kadhafi) entre dans la $salle d'attente 2.
+!02/02/2002!19:49$ : Le patient 122 (Alban Ray) entre en $salle d'enregistrement.
+
+!02/02/2002!19:52$ : Le patient  88 (Mario Nett) entre dans la $salle d'attente 3.
+!02/02/2002!19:52$ : Le patient  89 (Tom Connaughton) entre en $salle d'examen IOA.
+!02/02/2002!19:52$ : Le patient 122 (Alban Ray) entre dans la $salle d'attente 2.
+
+!02/02/2002!19:56$ : Le patient 123 (Jacques Chirac) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:56$ : Le patient 123 (Jacques Chirac) entre en $salle d'enregistrement.
+
+!02/02/2002!19:59$ : Le patient 124 (Lydie Vellard) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!19:59$ : Le patient  89 (Tom Connaughton) entre dans la $salle d'attente 3.
+!02/02/2002!19:59$ : Le patient  90 (Eugene Roshal) entre en $salle d'examen IOA.
+!02/02/2002!19:59$ : Le patient 123 (Jacques Chirac) entre dans la $salle d'attente 2.
+!02/02/2002!19:59$ : Le patient 124 (Lydie Vellard) entre en $salle d'enregistrement.
+
+!02/02/2002!20:00$ : Le patient  28 (Cecile Winksa) $quitte le service des urgences.
+!02/02/2002!20:00$ : Le patient  30 (Astride Guerin) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!20:02$ : Le patient 124 (Lydie Vellard) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:03$ : Le patient 125 (Jacques Keller) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:03$ : Le patient 125 (Jacques Keller) entre en $salle d'enregistrement.
+
+!02/02/2002!20:06$ : Le patient 125 (Jacques Keller) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:07$ : Le patient  62 (Albert Camus) $quitte le service des urgences.
+!02/02/2002!20:07$ : Le patient  64 (Robert Judson) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!20:07$ : Le patient  65 (Elsa-Rose Laifleurs) entre en $salle d'examens (circuit long), box 2.
+!02/02/2002!20:07$ : Le patient  90 (Eugene Roshal) entre dans la $salle d'attente 3.
+!02/02/2002!20:07$ : Le patient  91 (Pierre Beauseroy) entre en $salle d'examen IOA.
+
+!02/02/2002!20:10$ : Le patient 126 (Ines Al-Amad-Erniteh) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:10$ : Le patient 126 (Ines Al-Amad-Erniteh) entre en $salle d'enregistrement.
+
+!02/02/2002!20:12$ : Le patient 127 (Camille Onnette) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:12$ : Le patient  91 (Pierre Beauseroy) entre dans la $salle d'attente 3.
+!02/02/2002!20:12$ : Le patient  92 (Yvon Anbavet) entre en $salle d'examen IOA.
+!02/02/2002!20:12$ : Le patient 126 (Ines Al-Amad-Erniteh) entre dans la $salle d'attente 2.
+!02/02/2002!20:12$ : Le patient 127 (Camille Onnette) entre en $salle d'enregistrement.
+
+!02/02/2002!20:15$ : Le patient 128 (Aphelie Picaud) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!20:16$ : Le patient 127 (Camille Onnette) entre dans la $salle d'attente 2.
+!02/02/2002!20:16$ : Le patient 128 (Aphelie Picaud) entre en $salle d'enregistrement.
+
+!02/02/2002!20:18$ : Le patient 128 (Aphelie Picaud) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:19$ : Le patient  92 (Yvon Anbavet) entre dans la $salle d'attente 3.
+!02/02/2002!20:19$ : Le patient  93 (Andy Vaugeambon) entre en $salle d'examen IOA.
+
+!02/02/2002!20:21$ : Le patient 129 (Maude Farris) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:21$ : Le patient 129 (Maude Farris) entre en $salle d'enregistrement.
+
+!02/02/2002!20:24$ : Le patient  93 (Andy Vaugeambon) entre dans la $salle d'attente 3.
+!02/02/2002!20:24$ : Le patient  94 (Susie Gibson) entre en $salle d'examen IOA.
+
+!02/02/2002!20:25$ : Le patient 130 (Gerard Menvussat) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!20:26$ : Le patient 129 (Maude Farris) entre dans la $salle d'attente 2.
+!02/02/2002!20:26$ : Le patient 130 (Gerard Menvussat) entre en $salle d'enregistrement.
+
+!02/02/2002!20:29$ : Le patient 130 (Gerard Menvussat) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:30$ : Le patient  94 (Susie Gibson) entre dans la $salle d'attente 3.
+!02/02/2002!20:30$ : Le patient  95 (Jeremy Ade) entre en $salle d'examen IOA.
+
+!02/02/2002!20:32$ : Le patient 131 (Sophie Stiquet) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:32$ : Le patient 131 (Sophie Stiquet) entre en $salle d'enregistrement.
+
+!02/02/2002!20:33$ : Le patient 132 (Jean Sairien) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!20:35$ : Le patient 131 (Sophie Stiquet) entre dans la $salle d'attente 2.
+!02/02/2002!20:35$ : Le patient 132 (Jean Sairien) entre en $salle d'enregistrement.
+
+!02/02/2002!20:37$ : Le patient  95 (Jeremy Ade) entre dans la $salle d'attente 3.
+!02/02/2002!20:37$ : Le patient  96 (Stacy Jolly) entre en $salle d'examen IOA.
+
+!02/02/2002!20:38$ : Le patient 132 (Jean Sairien) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:41$ : Le patient  29 (Freddie Mercury) $quitte le service des urgences.
+!02/02/2002!20:41$ : Le patient  31 (Francois Mitterrand) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!20:42$ : Le patient  61 (Anne Kristiansen) $quitte le service des urgences.
+!02/02/2002!20:42$ : Le patient  63 (Sam Di) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!20:42$ : Le patient  66 (David Picton) entre en $salle d'examens (circuit long), box 1.
+
+!02/02/2002!20:44$ : Le patient 133 (Yannick Eunitete) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:44$ : Le patient 133 (Yannick Eunitete) entre en $salle d'enregistrement.
+
+!02/02/2002!20:45$ : Le patient  96 (Stacy Jolly) entre dans la $salle d'attente 3.
+!02/02/2002!20:45$ : Le patient  97 (Salomon Barrere) entre en $salle d'examen IOA.
+
+!02/02/2002!20:47$ : Le patient 133 (Yannick Eunitete) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:49$ : Le patient 134 (Yvonne Taylor) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:49$ : Le patient 134 (Yvonne Taylor) entre en $salle d'enregistrement.
+
+!02/02/2002!20:51$ : Le patient 134 (Yvonne Taylor) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:52$ : Le patient  97 (Salomon Barrere) entre dans la $salle d'attente 3.
+!02/02/2002!20:52$ : Le patient  98 (Hide Ohiri) entre en $salle d'examen IOA.
+
+!02/02/2002!20:54$ : Le patient 135 (Koto Okubu) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:54$ : Le patient 135 (Koto Okubu) entre en $salle d'enregistrement.
+
+!02/02/2002!20:56$ : Le patient  30 (Astride Guerin) $quitte le service des urgences.
+!02/02/2002!20:56$ : Le patient  32 (Mathew Beard) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!20:57$ : Le patient 135 (Koto Okubu) entre dans la $salle d'attente 2.
+
+!02/02/2002!20:58$ : Le patient 136 (Khan Hisch) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!20:58$ : Le patient  98 (Hide Ohiri) entre dans la $salle d'attente 3.
+!02/02/2002!20:58$ : Le patient  99 (Cedric Chuquet) entre en $salle d'examen IOA.
+!02/02/2002!20:58$ : Le patient 136 (Khan Hisch) entre en $salle d'enregistrement.
+
+!02/02/2002!21:01$ : Le patient  64 (Robert Judson) $quitte le service des urgences.
+!02/02/2002!21:01$ : Le patient  60 (Ademar Paz-el-qaal) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!21:01$ : Le patient  67 (Kelly Diothe) entre en $salle d'examens (circuit long), box 3.
+
+!02/02/2002!21:03$ : Le patient 137 (Greta Thunberg) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:03$ : Le patient 136 (Khan Hisch) entre dans la $salle d'attente 2.
+!02/02/2002!21:03$ : Le patient 137 (Greta Thunberg) entre en $salle d'enregistrement.
+
+!02/02/2002!21:06$ : Le patient  99 (Cedric Chuquet) entre dans la $salle d'attente 3.
+!02/02/2002!21:06$ : Le patient 100 (Lily Depp) entre en $salle d'examen IOA.
+!02/02/2002!21:06$ : Le patient 137 (Greta Thunberg) entre dans la $salle d'attente 2.
+
+!02/02/2002!21:07$ : Le patient 138 (Johannes Brahms) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:07$ : Le patient 138 (Johannes Brahms) entre en $salle d'enregistrement.
+
+!02/02/2002!21:10$ : Le patient 138 (Johannes Brahms) entre dans la $salle d'attente 2.
+
+!02/02/2002!21:12$ : Le patient 100 (Lily Depp) entre dans la $salle d'attente 3.
+!02/02/2002!21:12$ : Le patient 101 (Khaled Oskour) entre en $salle d'examen IOA.
+
+!02/02/2002!21:14$ : Le patient 139 (Murielle Gaudreau) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:14$ : Le patient 139 (Murielle Gaudreau) entre en $salle d'enregistrement.
+
+!02/02/2002!21:17$ : Le patient 139 (Murielle Gaudreau) entre dans la $salle d'attente 2.
+
+!02/02/2002!21:18$ : Le patient 140 (Frank Provost) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:18$ : Le patient 140 (Frank Provost) entre en $salle d'enregistrement.
+
+!02/02/2002!21:19$ : Le patient 101 (Khaled Oskour) entre dans la $salle d'attente 3.
+!02/02/2002!21:19$ : Le patient 102 (Jacques Sonne) entre en $salle d'examen IOA.
+
+!02/02/2002!21:21$ : Le patient 140 (Frank Provost) entre dans la $salle d'attente 2.
+
+!02/02/2002!21:22$ : Le patient 141 (Manuel Sanchez) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:22$ : Le patient 141 (Manuel Sanchez) entre en $salle d'enregistrement.
+
+!02/02/2002!21:26$ : Le patient  31 (Francois Mitterrand) $quitte le service des urgences.
+!02/02/2002!21:26$ : Le patient  33 (Jennifer Niplan-Charepasset) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!21:27$ : Le patient 142 (Georges Brassens) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:27$ : Le patient 102 (Jacques Sonne) entre dans la $salle d'attente 3.
+!02/02/2002!21:27$ : Le patient 103 (Tane Ikai) entre en $salle d'examen IOA.
+!02/02/2002!21:27$ : Le patient 141 (Manuel Sanchez) entre dans la $salle d'attente 2.
+!02/02/2002!21:27$ : Le patient 142 (Georges Brassens) entre en $salle d'enregistrement.
+
+!02/02/2002!21:29$ : Le patient 142 (Georges Brassens) entre dans la $salle d'attente 2.
+
+!02/02/2002!21:33$ : Le patient 143 (Andrew Bourne) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:33$ : Le patient 143 (Andrew Bourne) entre en $salle d'enregistrement.
+
+!02/02/2002!21:35$ : Le patient 103 (Tane Ikai) entre dans la $salle d'attente 3.
+!02/02/2002!21:35$ : Le patient 104 (Eric Entonnet) entre en $salle d'examen IOA.
+
+!02/02/2002!21:37$ : Le patient 144 (Bernadette Lemoine) arrive aux urgences et entre en $salle d'attente 1.
+
+!02/02/2002!21:38$ : Le patient 143 (Andrew Bourne) entre dans la $salle d'attente 2.
+!02/02/2002!21:38$ : Le patient 144 (Bernadette Lemoine) entre en $salle d'enregistrement.
+
+!02/02/2002!21:39$ : Le patient  63 (Sam Di) $quitte le service des urgences.
+!02/02/2002!21:39$ : Le patient  66 (David Picton) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!21:39$ : Le patient  68 (Christian Mortensen) entre en $salle d'examens (circuit long), box 1.
+
+!02/02/2002!21:40$ : Le patient  32 (Mathew Beard) $quitte le service des urgences.
+!02/02/2002!21:40$ : Le patient  34 (Manfred Desmieux) entre en $salle d'examens (circuit court), box 4.
+!02/02/2002!21:40$ : Le patient 104 (Eric Entonnet) entre dans la $salle d'attente 3.
+!02/02/2002!21:40$ : Le patient 105 (George Clooney) entre en $salle d'examen IOA.
+
+!02/02/2002!21:41$ : Le patient 145 (Andre Cetouvers) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:41$ : Le patient 144 (Bernadette Lemoine) entre dans la $salle d'attente 2.
+!02/02/2002!21:41$ : Le patient 145 (Andre Cetouvers) entre en $salle d'enregistrement.
+
+!02/02/2002!21:43$ : Le patient 145 (Andre Cetouvers) entre dans la $salle d'attente 2.
+
+!02/02/2002!21:46$ : Le patient 105 (George Clooney) entre dans la $salle d'attente 3.
+!02/02/2002!21:46$ : Le patient 106 (Dean Oucissawa) entre en $salle d'examen IOA.
+
+!02/02/2002!21:48$ : Le patient 146 (Kim Aprimon-Velaux) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:48$ : Le patient 146 (Kim Aprimon-Velaux) entre en $salle d'enregistrement.
+
+!02/02/2002!21:50$ : Le patient 106 (Dean Oucissawa) entre dans la $salle d'attente 3.
+!02/02/2002!21:50$ : Le patient 107 (Neil Anderson) entre en $salle d'examen IOA.
+
+!02/02/2002!21:51$ : Le patient 147 (Gaston Lagaffe) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:51$ : Le patient 146 (Kim Aprimon-Velaux) entre dans la $salle d'attente 2.
+!02/02/2002!21:51$ : Le patient 147 (Gaston Lagaffe) entre en $salle d'enregistrement.
+
+!02/02/2002!21:55$ : Le patient 148 (Ella Stick) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:55$ : Le patient 147 (Gaston Lagaffe) entre dans la $salle d'attente 2.
+!02/02/2002!21:55$ : Le patient 148 (Ella Stick) entre en $salle d'enregistrement.
+
+!02/02/2002!21:56$ : Le patient 107 (Neil Anderson) entre dans la $salle d'attente 3.
+!02/02/2002!21:56$ : Le patient 108 (Rhoda Camel) entre en $salle d'examen IOA.
+
+!02/02/2002!21:59$ : Le patient 149 (Yves Atrovythe) arrive aux urgences et entre en $salle d'attente 1.
+!02/02/2002!21:59$ : Le patient 148 (Ella Stick) entre dans la $salle d'attente 2.
+!02/02/2002!21:59$ : Le patient 149 (Yves Atrovythe) entre en $salle d'enregistrement.
+
+!02/02/2002!22:03$ : Le patient  33 (Jennifer Niplan-Charepasset) $quitte le service des urgences.
+!02/02/2002!22:03$ : Le patient  35 (Marjolaine Charlesbois) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!22:04$ : Le patient 108 (Rhoda Camel) entre dans la $salle d'attente 3.
+!02/02/2002!22:04$ : Le patient 109 (Colin Jones) entre en $salle d'examen IOA.
+!02/02/2002!22:04$ : Le patient 149 (Yves Atrovythe) entre dans la $salle d'attente 2.
+
+!02/02/2002!22:12$ : Le patient 109 (Colin Jones) entre dans la $salle d'attente 3.
+!02/02/2002!22:12$ : Le patient 110 (Simon Cussonet) entre en $salle d'examen IOA.
+
+!02/02/2002!22:13$ : Le patient  60 (Ademar Paz-el-qaal) $quitte le service des urgences.
+!02/02/2002!22:13$ : Le patient  65 (Elsa-Rose Laifleurs) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!22:13$ : Le patient  69 (Margaret Needham) entre en $salle d'examens (circuit long), box 2.
+
+!02/02/2002!22:20$ : Le patient 110 (Simon Cussonet) entre dans la $salle d'attente 3.
+!02/02/2002!22:20$ : Le patient 111 (Edith Orial) entre en $salle d'examen IOA.
+
+!02/02/2002!22:25$ : Le patient 111 (Edith Orial) entre dans la $salle d'attente 3.
+!02/02/2002!22:25$ : Le patient 112 (Amour Hirderyr) entre en $salle d'examen IOA.
+
+!02/02/2002!22:34$ : Le patient 112 (Amour Hirderyr) entre dans la $salle d'attente 3.
+!02/02/2002!22:34$ : Le patient 113 (Mohammed Afarsa) entre en $salle d'examen IOA.
+
+!02/02/2002!22:36$ : Le patient  34 (Manfred Desmieux) $quitte le service des urgences.
+!02/02/2002!22:36$ : Le patient  36 (Barbara Daigoux) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!22:41$ : Le patient 113 (Mohammed Afarsa) entre dans la $salle d'attente 3.
+!02/02/2002!22:41$ : Le patient 114 (Jack Pott) entre en $salle d'examen IOA.
+
+!02/02/2002!22:46$ : Le patient  66 (David Picton) $quitte le service des urgences.
+!02/02/2002!22:46$ : Le patient  68 (Christian Mortensen) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!22:46$ : Le patient  70 (Paulie Stirraine) entre en $salle d'examens (circuit long), box 1.
+
+!02/02/2002!22:47$ : Le patient 114 (Jack Pott) entre dans la $salle d'attente 3.
+!02/02/2002!22:47$ : Le patient 115 (Thomas Tfarsi) entre en $salle d'examen IOA.
+
+!02/02/2002!22:52$ : Le patient 115 (Thomas Tfarsi) entre dans la $salle d'attente 3.
+!02/02/2002!22:52$ : Le patient 116 (Paul Lonnet) entre en $salle d'examen IOA.
+
+!02/02/2002!22:57$ : Le patient 116 (Paul Lonnet) entre dans la $salle d'attente 3.
+!02/02/2002!22:57$ : Le patient 117 (Antonia Gerena) entre en $salle d'examen IOA.
+
+!02/02/2002!23:03$ : Le patient 117 (Antonia Gerena) entre dans la $salle d'attente 3.
+!02/02/2002!23:03$ : Le patient 118 (Barack Obama) entre en $salle d'examen IOA.
+
+!02/02/2002!23:07$ : Le patient  35 (Marjolaine Charlesbois) $quitte le service des urgences.
+!02/02/2002!23:07$ : Le patient  37 (Elizabeth Adin) entre en $salle d'examens (circuit court), box 5.
+
+!02/02/2002!23:08$ : Le patient 118 (Barack Obama) entre dans la $salle d'attente 4.
+!02/02/2002!23:08$ : Le patient 119 (Camel Leon) entre en $salle d'examen IOA.
+
+!02/02/2002!23:15$ : Le patient 119 (Camel Leon) entre dans la $salle d'attente 4.
+!02/02/2002!23:15$ : Le patient 120 (Carole Avillus) entre en $salle d'examen IOA.
+
+!02/02/2002!23:23$ : Le patient 120 (Carole Avillus) entre dans la $salle d'attente 4.
+!02/02/2002!23:23$ : Le patient 121 (Mouammar Kadhafi) entre en $salle d'examen IOA.
+
+!02/02/2002!23:24$ : Le patient  65 (Elsa-Rose Laifleurs) $quitte le service des urgences.
+!02/02/2002!23:24$ : Le patient  69 (Margaret Needham) est pris en charge au $box d'examen complementaire 1.
+!02/02/2002!23:24$ : Le patient  71 (Amar Dy) entre en $salle d'examens (circuit long), box 2.
+
+!02/02/2002!23:31$ : Le patient  68 (Christian Mortensen) $quitte le service des urgences.
+!02/02/2002!23:31$ : Le patient  67 (Kelly Diothe) est pris en charge au $box d'examen complementaire 2.
+!02/02/2002!23:31$ : Le patient  72 (Ethel Lang) entre en $salle d'examens (circuit long), box 3.
+!02/02/2002!23:31$ : Le patient 121 (Mouammar Kadhafi) entre dans la $salle d'attente 4.
+!02/02/2002!23:31$ : Le patient 122 (Alban Ray) entre en $salle d'examen IOA.
+
+!02/02/2002!23:34$ : Le patient  36 (Barbara Daigoux) $quitte le service des urgences.
+!02/02/2002!23:34$ : Le patient  38 (Raymond Beech) entre en $salle d'examens (circuit court), box 4.
+
+!02/02/2002!23:37$ : Le patient 122 (Alban Ray) entre dans la $salle d'attente 4.
+!02/02/2002!23:37$ : Le patient 123 (Jacques Chirac) entre en $salle d'examen IOA.
+
+!02/02/2002!23:45$ : Le patient  37 (Elizabeth Adin) $quitte le service des urgences.
+!02/02/2002!23:45$ : Le patient  39 (Ella Rumpf) entre en $salle d'examens (circuit court), box 5.
+!02/02/2002!23:45$ : Le patient 123 (Jacques Chirac) entre dans la $salle d'attente 4.
+!02/02/2002!23:45$ : Le patient 124 (Lydie Vellard) entre en $salle d'examen IOA.
+
+!02/02/2002!23:50$ : Le patient 124 (Lydie Vellard) entre dans la $salle d'attente 4.
+!02/02/2002!23:50$ : Le patient 125 (Jacques Keller) entre en $salle d'examen IOA.
+
+!02/02/2002!23:57$ : Le patient 125 (Jacques Keller) entre dans la $salle d'attente 4.
+!02/02/2002!23:57$ : Le patient 126 (Ines Al-Amad-Erniteh) entre en $salle d'examen IOA.
+
+!03/02/2002!00:02$ : Le patient 126 (Ines Al-Amad-Erniteh) entre dans la $salle d'attente 4.
+!03/02/2002!00:02$ : Le patient 127 (Camille Onnette) entre en $salle d'examen IOA.
+
+!03/02/2002!00:07$ : Le patient 127 (Camille Onnette) entre dans la $salle d'attente 4.
+!03/02/2002!00:07$ : Le patient 128 (Aphelie Picaud) entre en $salle d'examen IOA.
+
+!03/02/2002!00:13$ : Le patient 128 (Aphelie Picaud) entre dans la $salle d'attente 4.
+!03/02/2002!00:13$ : Le patient 129 (Maude Farris) entre en $salle d'examen IOA.
+
+!03/02/2002!00:16$ : Le patient  67 (Kelly Diothe) $quitte le service des urgences.
+!03/02/2002!00:16$ : Le patient  70 (Paulie Stirraine) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!00:16$ : Le patient  73 (Lucrece Chagnon) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!00:18$ : Le patient  69 (Margaret Needham) $quitte le service des urgences.
+!03/02/2002!00:18$ : Le patient  71 (Amar Dy) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!00:18$ : Le patient  74 (Juliette Doswell) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!00:22$ : Le patient  38 (Raymond Beech) $quitte le service des urgences.
+!03/02/2002!00:22$ : Le patient  40 (Julien Allemand) entre en $salle d'examens (circuit court), box 4.
+!03/02/2002!00:22$ : Le patient 129 (Maude Farris) entre dans la $salle d'attente 4.
+!03/02/2002!00:22$ : Le patient 130 (Gerard Menvussat) entre en $salle d'examen IOA.
+
+!03/02/2002!00:23$ : Le patient  39 (Ella Rumpf) $quitte le service des urgences.
+!03/02/2002!00:23$ : Le patient  41 (Angele Pherm-Laporte) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!00:31$ : Le patient 130 (Gerard Menvussat) entre dans la $salle d'attente 4.
+!03/02/2002!00:31$ : Le patient 131 (Sophie Stiquet) entre en $salle d'examen IOA.
+
+!03/02/2002!00:37$ : Le patient 131 (Sophie Stiquet) entre dans la $salle d'attente 4.
+!03/02/2002!00:37$ : Le patient 132 (Jean Sairien) entre en $salle d'examen IOA.
+
+!03/02/2002!00:43$ : Le patient 132 (Jean Sairien) entre dans la $salle d'attente 4.
+!03/02/2002!00:43$ : Le patient 133 (Yannick Eunitete) entre en $salle d'examen IOA.
+
+!03/02/2002!00:48$ : Le patient 133 (Yannick Eunitete) entre dans la $salle d'attente 4.
+!03/02/2002!00:48$ : Le patient 134 (Yvonne Taylor) entre en $salle d'examen IOA.
+
+!03/02/2002!00:54$ : Le patient 134 (Yvonne Taylor) entre dans la $salle d'attente 4.
+!03/02/2002!00:54$ : Le patient 135 (Koto Okubu) entre en $salle d'examen IOA.
+
+!03/02/2002!01:03$ : Le patient 135 (Koto Okubu) entre dans la $salle d'attente 4.
+!03/02/2002!01:03$ : Le patient 136 (Khan Hisch) entre en $salle d'examen IOA.
+
+!03/02/2002!01:04$ : Le patient  40 (Julien Allemand) $quitte le service des urgences.
+!03/02/2002!01:04$ : Le patient  42 (Farah Paupierre) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!01:09$ : Le patient 136 (Khan Hisch) entre dans la $salle d'attente 4.
+!03/02/2002!01:09$ : Le patient 137 (Greta Thunberg) entre en $salle d'examen IOA.
+
+!03/02/2002!01:10$ : Le patient  71 (Amar Dy) $quitte le service des urgences.
+!03/02/2002!01:10$ : Le patient  72 (Ethel Lang) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!01:10$ : Le patient  75 (Lucile Randon) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!01:16$ : Le patient 137 (Greta Thunberg) entre dans la $salle d'attente 4.
+!03/02/2002!01:16$ : Le patient 138 (Johannes Brahms) entre en $salle d'examen IOA.
+
+!03/02/2002!01:24$ : Le patient 138 (Johannes Brahms) entre dans la $salle d'attente 4.
+!03/02/2002!01:24$ : Le patient 139 (Murielle Gaudreau) entre en $salle d'examen IOA.
+
+!03/02/2002!01:27$ : Le patient  41 (Angele Pherm-Laporte) $quitte le service des urgences.
+!03/02/2002!01:27$ : Le patient  43 (Markos Kaiser) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!01:31$ : Le patient 139 (Murielle Gaudreau) entre dans la $salle d'attente 4.
+!03/02/2002!01:31$ : Le patient 140 (Frank Provost) entre en $salle d'examen IOA.
+
+!03/02/2002!01:34$ : Le patient  70 (Paulie Stirraine) $quitte le service des urgences.
+!03/02/2002!01:34$ : Le patient  73 (Lucrece Chagnon) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!01:34$ : Le patient  76 (Sarah Vigote) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!01:36$ : Le patient 140 (Frank Provost) entre dans la $salle d'attente 4.
+!03/02/2002!01:36$ : Le patient 141 (Manuel Sanchez) entre en $salle d'examen IOA.
+
+!03/02/2002!01:45$ : Le patient 141 (Manuel Sanchez) entre dans la $salle d'attente 3.
+!03/02/2002!01:45$ : Le patient 142 (Georges Brassens) entre en $salle d'examen IOA.
+
+!03/02/2002!01:50$ : Le patient 142 (Georges Brassens) entre dans la $salle d'attente 3.
+!03/02/2002!01:50$ : Le patient 143 (Andrew Bourne) entre en $salle d'examen IOA.
+
+!03/02/2002!01:55$ : Le patient 143 (Andrew Bourne) entre dans la $salle d'attente 3.
+!03/02/2002!01:55$ : Le patient 144 (Bernadette Lemoine) entre en $salle d'examen IOA.
+
+!03/02/2002!01:58$ : Le patient  42 (Farah Paupierre) $quitte le service des urgences.
+!03/02/2002!01:58$ : Le patient  44 (Frances Allen) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!02:00$ : Le patient  72 (Ethel Lang) $quitte le service des urgences.
+!03/02/2002!02:00$ : Le patient  74 (Juliette Doswell) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!02:00$ : Le patient  77 (Ali Gator) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!02:02$ : Le patient 144 (Bernadette Lemoine) entre dans la $salle d'attente 3.
+!03/02/2002!02:02$ : Le patient 145 (Andre Cetouvers) entre en $salle d'examen IOA.
+
+!03/02/2002!02:07$ : Le patient 145 (Andre Cetouvers) entre dans la $salle d'attente 3.
+!03/02/2002!02:07$ : Le patient 146 (Kim Aprimon-Velaux) entre en $salle d'examen IOA.
+
+!03/02/2002!02:12$ : Le patient  43 (Markos Kaiser) $quitte le service des urgences.
+!03/02/2002!02:12$ : Le patient  45 (Nabi Tajima) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!02:16$ : Le patient 146 (Kim Aprimon-Velaux) entre dans la $salle d'attente 3.
+!03/02/2002!02:16$ : Le patient 147 (Gaston Lagaffe) entre en $salle d'examen IOA.
+
+!03/02/2002!02:21$ : Le patient  73 (Lucrece Chagnon) $quitte le service des urgences.
+!03/02/2002!02:21$ : Le patient  75 (Lucile Randon) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!02:21$ : Le patient  78 (Gerard Depardieu) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!02:22$ : Le patient 147 (Gaston Lagaffe) entre dans la $salle d'attente 3.
+!03/02/2002!02:22$ : Le patient 148 (Ella Stick) entre en $salle d'examen IOA.
+
+!03/02/2002!02:28$ : Le patient 148 (Ella Stick) entre dans la $salle d'attente 3.
+!03/02/2002!02:28$ : Le patient 149 (Yves Atrovythe) entre en $salle d'examen IOA.
+
+!03/02/2002!02:35$ : Le patient 149 (Yves Atrovythe) entre dans la $salle d'attente 3.
+
+!03/02/2002!02:40$ : Le patient  44 (Frances Allen) $quitte le service des urgences.
+!03/02/2002!02:40$ : Le patient  46 (Jean Castex) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!02:53$ : Le patient  74 (Juliette Doswell) $quitte le service des urgences.
+!03/02/2002!02:53$ : Le patient  76 (Sarah Vigote) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!02:53$ : Le patient  79 (Mark Twain) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!03:00$ : Le patient  45 (Nabi Tajima) $quitte le service des urgences.
+!03/02/2002!03:00$ : Le patient  47 (Clea Molett) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!03:18$ : Le patient  46 (Jean Castex) $quitte le service des urgences.
+!03/02/2002!03:18$ : Le patient  48 (Eva Picet) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!03:34$ : Le patient  75 (Lucile Randon) $quitte le service des urgences.
+!03/02/2002!03:34$ : Le patient  77 (Ali Gator) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!03:34$ : Le patient  80 (Jacques Ayoub) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!03:53$ : Le patient  47 (Clea Molett) $quitte le service des urgences.
+!03/02/2002!03:53$ : Le patient  49 (Neva Morris) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!04:19$ : Le patient  48 (Eva Picet) $quitte le service des urgences.
+!03/02/2002!04:19$ : Le patient  50 (Peter Cole) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!04:20$ : Le patient  76 (Sarah Vigote) $quitte le service des urgences.
+!03/02/2002!04:20$ : Le patient  79 (Mark Twain) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!04:20$ : Le patient  81 (Violet Brown) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!04:27$ : Le patient  77 (Ali Gator) $quitte le service des urgences.
+!03/02/2002!04:27$ : Le patient  80 (Jacques Ayoub) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!04:27$ : Le patient  82 (Mitoyo Kawate) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!04:38$ : Le patient  49 (Neva Morris) $quitte le service des urgences.
+!03/02/2002!04:38$ : Le patient  51 (Lou Garoux) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!05:03$ : Le patient  50 (Peter Cole) $quitte le service des urgences.
+!03/02/2002!05:03$ : Le patient  52 (Thomas Maurer) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!05:21$ : Le patient  51 (Lou Garoux) $quitte le service des urgences.
+!03/02/2002!05:21$ : Le patient  53 (Barnabe Petit) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!05:34$ : Le patient  79 (Mark Twain) $quitte le service des urgences.
+!03/02/2002!05:34$ : Le patient  81 (Violet Brown) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!05:34$ : Le patient  83 (Jeanne Bot) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!05:38$ : Le patient  52 (Thomas Maurer) $quitte le service des urgences.
+!03/02/2002!05:38$ : Le patient  54 (Charlotte Hughes) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!05:54$ : Le patient  53 (Barnabe Petit) $quitte le service des urgences.
+!03/02/2002!05:54$ : Le patient  55 (Claire Delune) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!05:55$ : Le patient  80 (Jacques Ayoub) $quitte le service des urgences.
+!03/02/2002!05:55$ : Le patient  82 (Mitoyo Kawate) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!05:55$ : Le patient  84 (Elaine Billington) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!06:16$ : Le patient  54 (Charlotte Hughes) $quitte le service des urgences.
+!03/02/2002!06:16$ : Le patient 118 (Barack Obama) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!06:28$ : Le patient  81 (Violet Brown) $quitte le service des urgences.
+!03/02/2002!06:28$ : Le patient  83 (Jeanne Bot) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!06:28$ : Le patient  85 (Omar Sy) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!06:53$ : Le patient  55 (Claire Delune) $quitte le service des urgences.
+!03/02/2002!06:53$ : Le patient 119 (Camel Leon) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!07:03$ : Le patient  82 (Mitoyo Kawate) $quitte le service des urgences.
+!03/02/2002!07:03$ : Le patient  84 (Elaine Billington) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!07:03$ : Le patient  86 (Maria Capovilla) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!07:10$ : Le patient 118 (Barack Obama) $quitte le service des urgences.
+!03/02/2002!07:10$ : Le patient 120 (Carole Avillus) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!07:32$ : Le patient 119 (Camel Leon) $quitte le service des urgences.
+!03/02/2002!07:32$ : Le patient 121 (Mouammar Kadhafi) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!07:51$ : Le patient  83 (Jeanne Bot) $quitte le service des urgences.
+!03/02/2002!07:51$ : Le patient  85 (Omar Sy) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!07:51$ : Le patient  87 (Camilla Cabello) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!07:59$ : Le patient  84 (Elaine Billington) $quitte le service des urgences.
+!03/02/2002!07:59$ : Le patient  78 (Gerard Depardieu) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!07:59$ : Le patient  88 (Mario Nett) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!08:14$ : Le patient 120 (Carole Avillus) $quitte le service des urgences.
+!03/02/2002!08:14$ : Le patient 122 (Alban Ray) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!08:28$ : Le patient 121 (Mouammar Kadhafi) $quitte le service des urgences.
+!03/02/2002!08:28$ : Le patient 123 (Jacques Chirac) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!08:58$ : Le patient  85 (Omar Sy) $quitte le service des urgences.
+!03/02/2002!08:58$ : Le patient  87 (Camilla Cabello) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!08:58$ : Le patient  89 (Tom Connaughton) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!09:11$ : Le patient 122 (Alban Ray) $quitte le service des urgences.
+!03/02/2002!09:11$ : Le patient 124 (Lydie Vellard) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!09:13$ : Le patient  78 (Gerard Depardieu) $quitte le service des urgences.
+!03/02/2002!09:13$ : Le patient  86 (Maria Capovilla) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!09:13$ : Le patient  90 (Eugene Roshal) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!09:17$ : Le patient 123 (Jacques Chirac) $quitte le service des urgences.
+!03/02/2002!09:17$ : Le patient 125 (Jacques Keller) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!09:56$ : Le patient 125 (Jacques Keller) $quitte le service des urgences.
+!03/02/2002!09:56$ : Le patient 126 (Ines Al-Amad-Erniteh) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!10:05$ : Le patient  87 (Camilla Cabello) $quitte le service des urgences.
+!03/02/2002!10:05$ : Le patient  89 (Tom Connaughton) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!10:05$ : Le patient  91 (Pierre Beauseroy) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!10:14$ : Le patient 124 (Lydie Vellard) $quitte le service des urgences.
+!03/02/2002!10:14$ : Le patient 127 (Camille Onnette) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!10:39$ : Le patient  86 (Maria Capovilla) $quitte le service des urgences.
+!03/02/2002!10:39$ : Le patient  90 (Eugene Roshal) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!10:39$ : Le patient  92 (Yvon Anbavet) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!10:57$ : Le patient 126 (Ines Al-Amad-Erniteh) $quitte le service des urgences.
+!03/02/2002!10:57$ : Le patient 128 (Aphelie Picaud) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!11:17$ : Le patient 127 (Camille Onnette) $quitte le service des urgences.
+!03/02/2002!11:17$ : Le patient 129 (Maude Farris) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!11:26$ : Le patient  89 (Tom Connaughton) $quitte le service des urgences.
+!03/02/2002!11:26$ : Le patient  91 (Pierre Beauseroy) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!11:26$ : Le patient  93 (Andy Vaugeambon) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!11:37$ : Le patient 128 (Aphelie Picaud) $quitte le service des urgences.
+!03/02/2002!11:37$ : Le patient 130 (Gerard Menvussat) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!12:01$ : Le patient  90 (Eugene Roshal) $quitte le service des urgences.
+!03/02/2002!12:01$ : Le patient  92 (Yvon Anbavet) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!12:01$ : Le patient  94 (Susie Gibson) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!12:19$ : Le patient 130 (Gerard Menvussat) $quitte le service des urgences.
+!03/02/2002!12:19$ : Le patient 131 (Sophie Stiquet) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!12:20$ : Le patient 129 (Maude Farris) $quitte le service des urgences.
+!03/02/2002!12:20$ : Le patient 132 (Jean Sairien) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!12:32$ : Le patient  91 (Pierre Beauseroy) $quitte le service des urgences.
+!03/02/2002!12:32$ : Le patient  93 (Andy Vaugeambon) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!12:32$ : Le patient  95 (Jeremy Ade) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!12:53$ : Le patient  92 (Yvon Anbavet) $quitte le service des urgences.
+!03/02/2002!12:53$ : Le patient  88 (Mario Nett) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!12:53$ : Le patient  96 (Stacy Jolly) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!13:04$ : Le patient 132 (Jean Sairien) $quitte le service des urgences.
+!03/02/2002!13:04$ : Le patient 133 (Yannick Eunitete) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!13:08$ : Le patient 131 (Sophie Stiquet) $quitte le service des urgences.
+!03/02/2002!13:08$ : Le patient 134 (Yvonne Taylor) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!13:37$ : Le patient 133 (Yannick Eunitete) $quitte le service des urgences.
+!03/02/2002!13:37$ : Le patient 135 (Koto Okubu) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!13:50$ : Le patient  88 (Mario Nett) $quitte le service des urgences.
+!03/02/2002!13:50$ : Le patient  95 (Jeremy Ade) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!13:50$ : Le patient  97 (Salomon Barrere) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!13:54$ : Le patient 134 (Yvonne Taylor) $quitte le service des urgences.
+!03/02/2002!13:54$ : Le patient 136 (Khan Hisch) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!13:58$ : Le patient  93 (Andy Vaugeambon) $quitte le service des urgences.
+!03/02/2002!13:58$ : Le patient  94 (Susie Gibson) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!13:58$ : Le patient  98 (Hide Ohiri) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!14:20$ : Le patient 135 (Koto Okubu) $quitte le service des urgences.
+!03/02/2002!14:20$ : Le patient 137 (Greta Thunberg) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!14:49$ : Le patient  95 (Jeremy Ade) $quitte le service des urgences.
+!03/02/2002!14:49$ : Le patient  97 (Salomon Barrere) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!14:49$ : Le patient  99 (Cedric Chuquet) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!14:54$ : Le patient 136 (Khan Hisch) $quitte le service des urgences.
+!03/02/2002!14:54$ : Le patient 138 (Johannes Brahms) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!15:19$ : Le patient 137 (Greta Thunberg) $quitte le service des urgences.
+!03/02/2002!15:19$ : Le patient 139 (Murielle Gaudreau) entre en $salle d'examens (circuit court), box 4.
+
+!03/02/2002!15:25$ : Le patient  94 (Susie Gibson) $quitte le service des urgences.
+!03/02/2002!15:25$ : Le patient  98 (Hide Ohiri) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!15:25$ : Le patient 100 (Lily Depp) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!15:52$ : Le patient  99 (Cedric Chuquet) $quitte le service des urgences.
+!03/02/2002!15:52$ : Le patient 101 (Khaled Oskour) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!15:57$ : Le patient 138 (Johannes Brahms) $quitte le service des urgences.
+!03/02/2002!15:57$ : Le patient 140 (Frank Provost) entre en $salle d'examens (circuit court), box 5.
+
+!03/02/2002!16:11$ : Le patient 100 (Lily Depp) $quitte le service des urgences.
+!03/02/2002!16:11$ : Le patient 102 (Jacques Sonne) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!16:12$ : Le patient  97 (Salomon Barrere) $quitte le service des urgences.
+!03/02/2002!16:12$ : Le patient  96 (Stacy Jolly) est pris en charge au $box d'examen complementaire 2.
+!03/02/2002!16:12$ : Le patient 103 (Tane Ikai) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!16:16$ : Le patient 139 (Murielle Gaudreau) $quitte le service des urgences.
+
+!03/02/2002!16:43$ : Le patient  98 (Hide Ohiri) $quitte le service des urgences.
+
+!03/02/2002!16:48$ : Le patient 140 (Frank Provost) $quitte le service des urgences.
+!03/02/2002!16:48$ : Le patient 101 (Khaled Oskour) $quitte le service des urgences.
+!03/02/2002!16:48$ : Le patient 104 (Eric Entonnet) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!16:50$ : Le patient 102 (Jacques Sonne) $quitte le service des urgences.
+!03/02/2002!16:50$ : Le patient 105 (George Clooney) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!17:01$ : Le patient 103 (Tane Ikai) $quitte le service des urgences.
+!03/02/2002!17:01$ : Le patient 106 (Dean Oucissawa) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!17:38$ : Le patient  96 (Stacy Jolly) $quitte le service des urgences.
+
+!03/02/2002!17:44$ : Le patient 104 (Eric Entonnet) $quitte le service des urgences.
+!03/02/2002!17:44$ : Le patient 107 (Neil Anderson) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!17:46$ : Le patient 105 (George Clooney) $quitte le service des urgences.
+!03/02/2002!17:46$ : Le patient 108 (Rhoda Camel) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!18:00$ : Le patient 106 (Dean Oucissawa) $quitte le service des urgences.
+!03/02/2002!18:00$ : Le patient 109 (Colin Jones) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!18:30$ : Le patient 108 (Rhoda Camel) $quitte le service des urgences.
+!03/02/2002!18:30$ : Le patient 110 (Simon Cussonet) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!18:44$ : Le patient 109 (Colin Jones) $quitte le service des urgences.
+!03/02/2002!18:44$ : Le patient 111 (Edith Orial) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!18:46$ : Le patient 107 (Neil Anderson) $quitte le service des urgences.
+!03/02/2002!18:46$ : Le patient 112 (Amour Hirderyr) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!19:12$ : Le patient 110 (Simon Cussonet) $quitte le service des urgences.
+!03/02/2002!19:12$ : Le patient 113 (Mohammed Afarsa) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!19:26$ : Le patient 111 (Edith Orial) $quitte le service des urgences.
+!03/02/2002!19:26$ : Le patient 114 (Jack Pott) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!19:45$ : Le patient 112 (Amour Hirderyr) $quitte le service des urgences.
+!03/02/2002!19:45$ : Le patient 115 (Thomas Tfarsi) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!20:04$ : Le patient 113 (Mohammed Afarsa) $quitte le service des urgences.
+!03/02/2002!20:04$ : Le patient 116 (Paul Lonnet) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!20:29$ : Le patient 114 (Jack Pott) $quitte le service des urgences.
+!03/02/2002!20:29$ : Le patient 117 (Antonia Gerena) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!20:39$ : Le patient 116 (Paul Lonnet) $quitte le service des urgences.
+!03/02/2002!20:39$ : Le patient 141 (Manuel Sanchez) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!20:45$ : Le patient 115 (Thomas Tfarsi) $quitte le service des urgences.
+!03/02/2002!20:45$ : Le patient 142 (Georges Brassens) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!21:11$ : Le patient 117 (Antonia Gerena) $quitte le service des urgences.
+!03/02/2002!21:11$ : Le patient 143 (Andrew Bourne) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!21:20$ : Le patient 141 (Manuel Sanchez) $quitte le service des urgences.
+!03/02/2002!21:20$ : Le patient 144 (Bernadette Lemoine) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!21:26$ : Le patient 142 (Georges Brassens) $quitte le service des urgences.
+!03/02/2002!21:26$ : Le patient 145 (Andre Cetouvers) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!21:48$ : Le patient 143 (Andrew Bourne) $quitte le service des urgences.
+!03/02/2002!21:48$ : Le patient 146 (Kim Aprimon-Velaux) entre en $salle d'examens (circuit long), box 3.
+
+!03/02/2002!21:59$ : Le patient 144 (Bernadette Lemoine) $quitte le service des urgences.
+!03/02/2002!21:59$ : Le patient 147 (Gaston Lagaffe) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!22:13$ : Le patient 145 (Andre Cetouvers) $quitte le service des urgences.
+!03/02/2002!22:13$ : Le patient 148 (Ella Stick) entre en $salle d'examens (circuit long), box 1.
+
+!03/02/2002!22:33$ : Le patient 147 (Gaston Lagaffe) est pris en charge au $box d'examen complementaire 1.
+!03/02/2002!22:33$ : Le patient 149 (Yves Atrovythe) entre en $salle d'examens (circuit long), box 2.
+
+!03/02/2002!22:50$ : Le patient 146 (Kim Aprimon-Velaux) est pris en charge au $box d'examen complementaire 2.
+
+!03/02/2002!23:42$ : Le patient 146 (Kim Aprimon-Velaux) $quitte le service des urgences.
+!03/02/2002!23:42$ : Le patient 148 (Ella Stick) est pris en charge au $box d'examen complementaire 2.
+
+!03/02/2002!23:56$ : Le patient 147 (Gaston Lagaffe) $quitte le service des urgences.
+!03/02/2002!23:56$ : Le patient 149 (Yves Atrovythe) est pris en charge au $box d'examen complementaire 1.
+
+	Le : 04/02/2002
+!04/02/2002!00:38$ : Le patient 148 (Ella Stick) $quitte le service des urgences.
+
+!04/02/2002!01:00$ : Le patient 149 (Yves Atrovythe) $quitte le service des urgences.

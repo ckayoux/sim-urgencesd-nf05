@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>simulation_urgences:  Fichier source de G:/TC02/NF05/PROJET/simulation_urgences/salles.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="R9a9e6c9ad22a3ccc249e2ebf10d5d697.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">simulation_urgences
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simulation d&#39;un flux de patients au sein d&#39;un service d&#39;urgences.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">G:/TC02/NF05/PROJET/simulation_urgences/salles.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="salles_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;stdarg.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="queue_8h.html">queue.h</a>&quot;</span> <span class="comment">//queue contient patient.h et temps.h, deux headers nécessaires pour salles.c</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structsalle__dattente.html">   10</a></span>&#160;<span class="comment"></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structsalle__dattente.html#a1a1377b2b0551a3465c085e88f0329b0">   11</a></span>&#160;    <a class="code" href="struct_queue.html">Queue</a> *<a class="code" href="structsalle__dattente.html#a1a1377b2b0551a3465c085e88f0329b0">QUEUE</a>; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structsalle__dattente.html#a40026208a5a928e17470ece9a3fcabde">   12</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="structsalle__dattente.html#a40026208a5a928e17470ece9a3fcabde">temps_attente</a>;      </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structsalle__dattente.html#af8e31f49164ea2aab080871435024c69">   13</a></span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="structsalle__dattente.html#af8e31f49164ea2aab080871435024c69">message</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;} <a class="code" href="structsalle__dattente.html">salle_dattente</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structsalle__even.html">   22</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structsalle__even.html">salle_even</a>{</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structsalle__even.html#a37d63c15b777b1bffbef60a14612f213">   23</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structsalle__even.html#a37d63c15b777b1bffbef60a14612f213">libre</a>; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structsalle__even.html#a0a7b992c2b0f2981f7fd9f7e15e9bed1">   24</a></span>&#160;    <a class="code" href="structsalle__dattente.html">salle_dattente</a>* <a class="code" href="structsalle__even.html#a0a7b992c2b0f2981f7fd9f7e15e9bed1">salle_prec</a>;   </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structsalle__even.html#ad5707ffc634e32bc3d1da351a407fc0e">   25</a></span>&#160;    <a class="code" href="structsalle__dattente.html">salle_dattente</a>* <a class="code" href="structsalle__even.html#ad5707ffc634e32bc3d1da351a407fc0e">salle_suiv</a>;   </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structsalle__even.html#a4c170acdd626a81fc9de8735494dd23b">   26</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structsalle__even.html">salle_even</a> **<a class="code" href="structsalle__even.html#a4c170acdd626a81fc9de8735494dd23b">boxs</a>; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structsalle__even.html#acd7d926085aa391de3d07c029210b672">   29</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structsalle__even.html#acd7d926085aa391de3d07c029210b672">nombre_boxs</a>; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="structsalle__even.html#a3a63b88ebbc9060b566fb17c820c78f6">   30</a></span>&#160;    <a class="code" href="structtemps.html">temps</a> <a class="code" href="structsalle__even.html#a3a63b88ebbc9060b566fb17c820c78f6">heure_liberation</a>; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structsalle__even.html#a06592682cd4b93e991b5b70a38539c68">   31</a></span>&#160;    <a class="code" href="structpatient.html">patient</a> *<a class="code" href="structsalle__even.html#a06592682cd4b93e991b5b70a38539c68">Patient</a>; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structsalle__even.html#ac874262dd5ae0818c46ac185ee7a5b55">   32</a></span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="structsalle__even.html#ac874262dd5ae0818c46ac185ee7a5b55">message</a>; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structsalle__even.html#a279393d3d7f82148a5445e705c245978">   37</a></span>&#160;    <a class="code" href="structtemps.html">temps</a> *<a class="code" href="structsalle__even.html#a279393d3d7f82148a5445e705c245978">tab_durees</a>; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="structsalle__even.html#aeccb6ff8063926edf565556426c3975b">   38</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> *<a class="code" href="structsalle__even.html#aeccb6ff8063926edf565556426c3975b">tab_id_patients</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structsalle__even.html#addccbf4f2a88115bcf8d45e23deaf1c9">   39</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> *<a class="code" href="structsalle__even.html#addccbf4f2a88115bcf8d45e23deaf1c9">ordre</a>; </div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structsalle__even.html#acb4ba098870dd6b62fe597bc9b907b96">   40</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="structsalle__even.html#acb4ba098870dd6b62fe597bc9b907b96">indice</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="structsalle__even.html#ac2341779f151d713968994416d34620c">   45</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structsalle__even.html#ac2341779f151d713968994416d34620c">d_esperance</a>; </div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="structsalle__even.html#ae86fcb20ed2991c56dfaa3d11cce1358">   46</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structsalle__even.html#ae86fcb20ed2991c56dfaa3d11cce1358">d_ecart</a>; </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="salles_8h.html#a8e751044887dc1524bce3f090b1153af">   47</a></span>&#160;} <a class="code" href="salles_8h.html#a8e751044887dc1524bce3f090b1153af">salle_even</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="structsalle__dattente.html">salle_dattente</a>* <a class="code" href="salles_8h.html#ab31ca02a82373fd0c38b7dc765017f76">creerSalleDattente</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> maxElements,<span class="keyword">const</span> <span class="keywordtype">char</span> * <a class="code" href="structsalle__even.html#ac874262dd5ae0818c46ac185ee7a5b55">message</a>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<a class="code" href="structsalle__even.html">salle_even</a>* <a class="code" href="salles_8h.html#a3c356fda632f22019265eb76e6f11cdf">creerBox</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="structsalle__even.html#ac874262dd5ae0818c46ac185ee7a5b55">message</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<a class="code" href="structsalle__even.html">salle_even</a>** <a class="code" href="salles_8h.html#abdfaefa1a2ae1288d772d48efc21d02c">grouperBoxs</a>(<span class="keywordtype">int</span> <a class="code" href="structsalle__even.html#acd7d926085aa391de3d07c029210b672">nombre_boxs</a>,...);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<a class="code" href="structsalle__even.html">salle_even</a>* <a class="code" href="salles_8h.html#a536b2ba6433207beea1786f540157615">creerSalleEven</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="structsalle__even.html#ac874262dd5ae0818c46ac185ee7a5b55">message</a>,<a class="code" href="structsalle__dattente.html">salle_dattente</a>* <a class="code" href="structsalle__even.html#a0a7b992c2b0f2981f7fd9f7e15e9bed1">salle_prec</a>,<a class="code" href="structsalle__dattente.html">salle_dattente</a>* <a class="code" href="structsalle__even.html#ad5707ffc634e32bc3d1da351a407fc0e">salle_suiv</a>,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nombre_patients,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> D_Esperance,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> D_Ecart,<a class="code" href="structsalle__even.html">salle_even</a> **<a class="code" href="structsalle__even.html#a4c170acdd626a81fc9de8735494dd23b">boxs</a>,<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> Nombre_Boxs);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#a3d6ea999ddfc95a1819d3934e3733b2c">patientsAttendent</a>(<a class="code" href="structsalle__dattente.html">salle_dattente</a>* Salle_Dattente);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#a14aa8a74e9d1a9e21d51a0efd9592db2">afficher_salle_dattente</a>(<a class="code" href="structsalle__dattente.html">salle_dattente</a>* Salle_Dattente);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#aed509bf34cb25f9031e2240619c01d06">afficher_salle_even</a>(<a class="code" href="structsalle__even.html">salle_even</a>* Salle_Even);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#a23e22b98fc1f218ca1bf80e1c597212e">ajouterPatientSalleDattente</a>(<a class="code" href="structsalle__dattente.html">salle_dattente</a>* Salle_Dattente,<a class="code" href="structpatient.html">patient</a> *<a class="code" href="structsalle__even.html#a06592682cd4b93e991b5b70a38539c68">Patient</a>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="salles_8h.html#a5fb1bad674512e6cbde05923f70addf2">   60</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#a5fb1bad674512e6cbde05923f70addf2">enleverPatientSalleDattente</a>(<a class="code" href="structsalle__dattente.html">salle_dattente</a>* Salle_Dattente);</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="salles_8h.html#af3fda04fa28e65a60519aff6d8e8d7fb">   61</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#af3fda04fa28e65a60519aff6d8e8d7fb">ajouterPatientSalleEven</a>(<a class="code" href="structsalle__even.html">salle_even</a>* Salle_Even,<a class="code" href="structtemps.html">temps</a> duree);</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="salles_8h.html#ab13b11614ccd5e67a69b272c9b4cf5d1">   62</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#ab13b11614ccd5e67a69b272c9b4cf5d1">libererSalleEven</a>(<a class="code" href="structsalle__even.html">salle_even</a>* Salle_Even);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">void</span> <a class="code" href="salles_8h.html#a219baa22d6a85b830a8b6388b9f6f546">trierStats</a>(<a class="code" href="structsalle__even.html">salle_even</a> *S);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="salles_8h.html#a9051543366ad4f30148d6f16fed26e64">dureeTotale</a>(<a class="code" href="structsalle__even.html">salle_even</a> *S);</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="asalles_8h_html_a3c356fda632f22019265eb76e6f11cdf"><div class="ttname"><a href="salles_8h.html#a3c356fda632f22019265eb76e6f11cdf">creerBox</a></div><div class="ttdeci">salle_even * creerBox(const char *message)</div><div class="ttdoc">Instancie un nouveau box d'examen.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00088">salles.c:88</a></div></div>
+<div class="ttc" id="asalles_8h_html_ab13b11614ccd5e67a69b272c9b4cf5d1"><div class="ttname"><a href="salles_8h.html#ab13b11614ccd5e67a69b272c9b4cf5d1">libererSalleEven</a></div><div class="ttdeci">void libererSalleEven(salle_even *Salle_Even)</div></div>
+<div class="ttc" id="asalles_8h_html_abdfaefa1a2ae1288d772d48efc21d02c"><div class="ttname"><a href="salles_8h.html#abdfaefa1a2ae1288d772d48efc21d02c">grouperBoxs</a></div><div class="ttdeci">salle_even ** grouperBoxs(int nombre_boxs,...)</div><div class="ttdoc">Créée un tableau contenant l'adresse de tous les box passés en paramètres d'entrée.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00116">salles.c:116</a></div></div>
+<div class="ttc" id="asalles_8h_html_a536b2ba6433207beea1786f540157615"><div class="ttname"><a href="salles_8h.html#a536b2ba6433207beea1786f540157615">creerSalleEven</a></div><div class="ttdeci">salle_even * creerSalleEven(const char *message, salle_dattente *salle_prec, salle_dattente *salle_suiv, unsigned int nombre_patients, unsigned int D_Esperance, unsigned int D_Ecart, salle_even **boxs, unsigned char Nombre_Boxs)</div><div class="ttdoc">Instancie une salle d'examen ou la salle d'enregistrement.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00049">salles.c:49</a></div></div>
+<div class="ttc" id="astructsalle__even_html_ac2341779f151d713968994416d34620c"><div class="ttname"><a href="structsalle__even.html#ac2341779f151d713968994416d34620c">salle_even::d_esperance</a></div><div class="ttdeci">unsigned int d_esperance</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00045">salles.h:45</a></div></div>
+<div class="ttc" id="astructsalle__even_html_a4c170acdd626a81fc9de8735494dd23b"><div class="ttname"><a href="structsalle__even.html#a4c170acdd626a81fc9de8735494dd23b">salle_even::boxs</a></div><div class="ttdeci">struct salle_even ** boxs</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00026">salles.h:26</a></div></div>
+<div class="ttc" id="astructtemps_html"><div class="ttname"><a href="structtemps.html">temps</a></div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00012">temps.h:12</a></div></div>
+<div class="ttc" id="asalles_8h_html_a8e751044887dc1524bce3f090b1153af"><div class="ttname"><a href="salles_8h.html#a8e751044887dc1524bce3f090b1153af">salle_even</a></div><div class="ttdeci">struct salle_even salle_even</div></div>
+<div class="ttc" id="astructsalle__dattente_html_a1a1377b2b0551a3465c085e88f0329b0"><div class="ttname"><a href="structsalle__dattente.html#a1a1377b2b0551a3465c085e88f0329b0">salle_dattente::QUEUE</a></div><div class="ttdeci">Queue * QUEUE</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00011">salles.h:11</a></div></div>
+<div class="ttc" id="astructsalle__even_html_acb4ba098870dd6b62fe597bc9b907b96"><div class="ttname"><a href="structsalle__even.html#acb4ba098870dd6b62fe597bc9b907b96">salle_even::indice</a></div><div class="ttdeci">unsigned short int indice</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00040">salles.h:40</a></div></div>
+<div class="ttc" id="asalles_8h_html_a9051543366ad4f30148d6f16fed26e64"><div class="ttname"><a href="salles_8h.html#a9051543366ad4f30148d6f16fed26e64">dureeTotale</a></div><div class="ttdeci">temps dureeTotale(salle_even *S)</div><div class="ttdoc">Fait le total des durées contenues dans le tableau de durées d'une salle.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00227">salles.c:227</a></div></div>
+<div class="ttc" id="asalles_8h_html_a14aa8a74e9d1a9e21d51a0efd9592db2"><div class="ttname"><a href="salles_8h.html#a14aa8a74e9d1a9e21d51a0efd9592db2">afficher_salle_dattente</a></div><div class="ttdeci">void afficher_salle_dattente(salle_dattente *Salle_Dattente)</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00149">salles.c:149</a></div></div>
+<div class="ttc" id="asalles_8h_html_af3fda04fa28e65a60519aff6d8e8d7fb"><div class="ttname"><a href="salles_8h.html#af3fda04fa28e65a60519aff6d8e8d7fb">ajouterPatientSalleEven</a></div><div class="ttdeci">void ajouterPatientSalleEven(salle_even *Salle_Even, temps duree)</div></div>
+<div class="ttc" id="astructsalle__even_html_ad5707ffc634e32bc3d1da351a407fc0e"><div class="ttname"><a href="structsalle__even.html#ad5707ffc634e32bc3d1da351a407fc0e">salle_even::salle_suiv</a></div><div class="ttdeci">salle_dattente * salle_suiv</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00025">salles.h:25</a></div></div>
+<div class="ttc" id="asalles_8h_html_aed509bf34cb25f9031e2240619c01d06"><div class="ttname"><a href="salles_8h.html#aed509bf34cb25f9031e2240619c01d06">afficher_salle_even</a></div><div class="ttdeci">void afficher_salle_even(salle_even *Salle_Even)</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00172">salles.c:172</a></div></div>
+<div class="ttc" id="astructsalle__even_html_a0a7b992c2b0f2981f7fd9f7e15e9bed1"><div class="ttname"><a href="structsalle__even.html#a0a7b992c2b0f2981f7fd9f7e15e9bed1">salle_even::salle_prec</a></div><div class="ttdeci">salle_dattente * salle_prec</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00024">salles.h:24</a></div></div>
+<div class="ttc" id="asalles_8h_html_a3d6ea999ddfc95a1819d3934e3733b2c"><div class="ttname"><a href="salles_8h.html#a3d6ea999ddfc95a1819d3934e3733b2c">patientsAttendent</a></div><div class="ttdeci">void patientsAttendent(salle_dattente *Salle_Dattente)</div><div class="ttdoc">Ajoute une minute (par patient dans sa file) au temps d'attente total d'une salle d'attente.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00139">salles.c:139</a></div></div>
+<div class="ttc" id="aqueue_8h_html"><div class="ttname"><a href="queue_8h.html">queue.h</a></div></div>
+<div class="ttc" id="asalles_8h_html_a5fb1bad674512e6cbde05923f70addf2"><div class="ttname"><a href="salles_8h.html#a5fb1bad674512e6cbde05923f70addf2">enleverPatientSalleDattente</a></div><div class="ttdeci">void enleverPatientSalleDattente(salle_dattente *Salle_Dattente)</div></div>
+<div class="ttc" id="asalles_8h_html_ab31ca02a82373fd0c38b7dc765017f76"><div class="ttname"><a href="salles_8h.html#ab31ca02a82373fd0c38b7dc765017f76">creerSalleDattente</a></div><div class="ttdeci">salle_dattente * creerSalleDattente(unsigned int maxElements, const char *message)</div><div class="ttdoc">Instancie une salle d'attente d'intitulé donné, capable d'accueillir un nombre donné de patients.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00016">salles.c:16</a></div></div>
+<div class="ttc" id="astructpatient_html"><div class="ttname"><a href="structpatient.html">patient</a></div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00013">patient.h:13</a></div></div>
+<div class="ttc" id="astructsalle__dattente_html_a40026208a5a928e17470ece9a3fcabde"><div class="ttname"><a href="structsalle__dattente.html#a40026208a5a928e17470ece9a3fcabde">salle_dattente::temps_attente</a></div><div class="ttdeci">double temps_attente</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00012">salles.h:12</a></div></div>
+<div class="ttc" id="astructsalle__dattente_html_af8e31f49164ea2aab080871435024c69"><div class="ttname"><a href="structsalle__dattente.html#af8e31f49164ea2aab080871435024c69">salle_dattente::message</a></div><div class="ttdeci">char * message</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00013">salles.h:13</a></div></div>
+<div class="ttc" id="astructsalle__even_html_a279393d3d7f82148a5445e705c245978"><div class="ttname"><a href="structsalle__even.html#a279393d3d7f82148a5445e705c245978">salle_even::tab_durees</a></div><div class="ttdeci">temps * tab_durees</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00037">salles.h:37</a></div></div>
+<div class="ttc" id="astructsalle__even_html_acd7d926085aa391de3d07c029210b672"><div class="ttname"><a href="structsalle__even.html#acd7d926085aa391de3d07c029210b672">salle_even::nombre_boxs</a></div><div class="ttdeci">unsigned char nombre_boxs</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00029">salles.h:29</a></div></div>
+<div class="ttc" id="astructsalle__even_html_a37d63c15b777b1bffbef60a14612f213"><div class="ttname"><a href="structsalle__even.html#a37d63c15b777b1bffbef60a14612f213">salle_even::libre</a></div><div class="ttdeci">bool libre</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00023">salles.h:23</a></div></div>
+<div class="ttc" id="astructsalle__even_html_a06592682cd4b93e991b5b70a38539c68"><div class="ttname"><a href="structsalle__even.html#a06592682cd4b93e991b5b70a38539c68">salle_even::Patient</a></div><div class="ttdeci">patient * Patient</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00031">salles.h:31</a></div></div>
+<div class="ttc" id="astructsalle__even_html_a3a63b88ebbc9060b566fb17c820c78f6"><div class="ttname"><a href="structsalle__even.html#a3a63b88ebbc9060b566fb17c820c78f6">salle_even::heure_liberation</a></div><div class="ttdeci">temps heure_liberation</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00030">salles.h:30</a></div></div>
+<div class="ttc" id="astructsalle__even_html"><div class="ttname"><a href="structsalle__even.html">salle_even</a></div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00022">salles.h:22</a></div></div>
+<div class="ttc" id="asalles_8h_html_a23e22b98fc1f218ca1bf80e1c597212e"><div class="ttname"><a href="salles_8h.html#a23e22b98fc1f218ca1bf80e1c597212e">ajouterPatientSalleDattente</a></div><div class="ttdeci">void ajouterPatientSalleDattente(salle_dattente *Salle_Dattente, patient *Patient)</div><div class="ttdoc">Ajoute l'adresse d'un patient la queue d'une salle d'attente (en bout de file).</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00165">salles.c:165</a></div></div>
+<div class="ttc" id="astructsalle__even_html_ae86fcb20ed2991c56dfaa3d11cce1358"><div class="ttname"><a href="structsalle__even.html#ae86fcb20ed2991c56dfaa3d11cce1358">salle_even::d_ecart</a></div><div class="ttdeci">unsigned int d_ecart</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00046">salles.h:46</a></div></div>
+<div class="ttc" id="asalles_8h_html_a219baa22d6a85b830a8b6388b9f6f546"><div class="ttname"><a href="salles_8h.html#a219baa22d6a85b830a8b6388b9f6f546">trierStats</a></div><div class="ttdeci">void trierStats(salle_even *S)</div><div class="ttdoc">Trie conjointement deux tableaux servant à l'établissement de statistiques d'une salle &quot;d'événement&quot;.</div><div class="ttdef"><b>Definition:</b> <a href="salles_8c_source.html#l00195">salles.c:195</a></div></div>
+<div class="ttc" id="astructsalle__even_html_aeccb6ff8063926edf565556426c3975b"><div class="ttname"><a href="structsalle__even.html#aeccb6ff8063926edf565556426c3975b">salle_even::tab_id_patients</a></div><div class="ttdeci">unsigned short int * tab_id_patients</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00038">salles.h:38</a></div></div>
+<div class="ttc" id="astructsalle__even_html_ac874262dd5ae0818c46ac185ee7a5b55"><div class="ttname"><a href="structsalle__even.html#ac874262dd5ae0818c46ac185ee7a5b55">salle_even::message</a></div><div class="ttdeci">char * message</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00032">salles.h:32</a></div></div>
+<div class="ttc" id="astructsalle__dattente_html"><div class="ttname"><a href="structsalle__dattente.html">salle_dattente</a></div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00010">salles.h:10</a></div></div>
+<div class="ttc" id="astructsalle__even_html_addccbf4f2a88115bcf8d45e23deaf1c9"><div class="ttname"><a href="structsalle__even.html#addccbf4f2a88115bcf8d45e23deaf1c9">salle_even::ordre</a></div><div class="ttdeci">unsigned short int * ordre</div><div class="ttdef"><b>Definition:</b> <a href="salles_8h_source.html#l00039">salles.h:39</a></div></div>
+<div class="ttc" id="astruct_queue_html"><div class="ttname"><a href="struct_queue.html">Queue</a></div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00007">queue.h:7</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1606760493 source:f:\stockage cours\tc02\nf05\projet\simulation_urgences\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<ctype.h>
+	<time.h>
+	"salles.h"
+
+1605730416 source:f:\stockage cours\tc02\nf05\projet\simulation_urgences\queue.c
+	<stdbool.h>
+	"queue.h"
+
+1605459694 f:\stockage cours\tc02\nf05\projet\simulation_urgences\queue.h
+	<stdio.h>
+	"patient.h"
+
+1606562283 source:f:\stockage cours\tc02\nf05\projet\simulation_urgences\patient.c
+	"patient.h"
+
+1606160101 f:\stockage cours\tc02\nf05\projet\simulation_urgences\patient.h
+	<stdio.h>
+	"aleatoire.h"
+
+1606157927 f:\stockage cours\tc02\nf05\projet\simulation_urgences\temps.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<math.h>
+
+1606759706 source:f:\stockage cours\tc02\nf05\projet\simulation_urgences\temps.c
+	"temps.h"
+
+1606218445 f:\stockage cours\tc02\nf05\projet\simulation_urgences\salles.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<stdarg.h>
+	"queue.h"
+
+1606218359 source:f:\stockage cours\tc02\nf05\projet\simulation_urgences\salles.c
+	"salles.h"
+
+1606561230 source:f:\stockage cours\tc02\nf05\projet\simulation_urgences\aleatoire.c
+	"aleatoire.h"
+
+1606203595 f:\stockage cours\tc02\nf05\projet\simulation_urgences\aleatoire.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<math.h>
+	<time.h>
+	"temps.h"
+
+1608982242 source:g:\tc02\nf05\projet\simulation_urgences\aleatoire.c
+	"aleatoire.h"
+
+1608938869 g:\tc02\nf05\projet\simulation_urgences\aleatoire.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<math.h>
+	<time.h>
+	"temps.h"
+
+1608851691 g:\tc02\nf05\projet\simulation_urgences\temps.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<math.h>
+	<ctype.h>
+
+1608921731 source:g:\tc02\nf05\projet\simulation_urgences\patient.c
+	"patient.h"
+
+1608852576 g:\tc02\nf05\projet\simulation_urgences\patient.h
+	<stdio.h>
+	"aleatoire.h"
+
+1608926646 source:g:\tc02\nf05\projet\simulation_urgences\queue.c
+	<stdbool.h>
+	"queue.h"
+
+1608852121 g:\tc02\nf05\projet\simulation_urgences\queue.h
+	<stdio.h>
+	"patient.h"
+
+1608850898 source:g:\tc02\nf05\projet\simulation_urgences\salles.c
+	"salles.h"
+
+1608852130 g:\tc02\nf05\projet\simulation_urgences\salles.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<stdarg.h>
+	"queue.h"
+
+1608844061 source:g:\tc02\nf05\projet\simulation_urgences\temps.c
+	"temps.h"
+
+1609032804 source:g:\tc02\nf05\projet\simulation_urgences\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+	"salles.h"
+

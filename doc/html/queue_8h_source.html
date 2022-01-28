@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>simulation_urgences:  Fichier source de G:/TC02/NF05/PROJET/simulation_urgences/queue.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="R9a9e6c9ad22a3ccc249e2ebf10d5d697.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">simulation_urgences
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simulation d&#39;un flux de patients au sein d&#39;un service d&#39;urgences.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">G:/TC02/NF05/PROJET/simulation_urgences/queue.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="queue_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="patient_8h.html">patient.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="struct_queue.html">    7</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="struct_queue.html#a344318fc1db2efc28d3cce1a33702b75">    8</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_queue.html#a344318fc1db2efc28d3cce1a33702b75">capacite</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="struct_queue.html#a0bf6ad4952ce081299e7eb3c95eeeef4">    9</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_queue.html#a0bf6ad4952ce081299e7eb3c95eeeef4">taille</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="struct_queue.html#a2ba4310ce36c62291da0649db715d60d">   10</a></span>&#160;    <a class="code" href="structpatient.html">patient</a>* *<a class="code" href="struct_queue.html#a2ba4310ce36c62291da0649db715d60d">elements</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="struct_queue.html#a2b22645608eca744209abc91d0a52639">   11</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_queue.html#a2b22645608eca744209abc91d0a52639">debut</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="struct_queue.html#ad14a63176f0e9bb094078c2506930a0d">   12</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="struct_queue.html#ad14a63176f0e9bb094078c2506930a0d">fin</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;} <a class="code" href="struct_queue.html">Queue</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">void</span> <a class="code" href="queue_8h.html#acf1baaebc367b53b7a88e9317d77e321">enqueue</a>(<a class="code" href="struct_queue.html">Queue</a> *Q,<a class="code" href="structpatient.html">patient</a>* element);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">void</span> <a class="code" href="queue_8h.html#a50c657862cadc709779c65dddfb4b661">dequeue</a>(<a class="code" href="struct_queue.html">Queue</a> *Q);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<a class="code" href="struct_queue.html">Queue</a> *<a class="code" href="queue_8h.html#a8754fb0edc8076afe6b6e76995a43c60">creerQueue</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> maxElements);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<a class="code" href="structpatient.html">patient</a>* <a class="code" href="queue_8h.html#a17b98cf7a290240aca595fa0462803d6">element_debut_queue</a>(<a class="code" href="struct_queue.html">Queue</a> *Q);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> <a class="code" href="queue_8h.html#afb4a25606ed72b5f800620b90f9b6f22">afficherQueue</a>(<a class="code" href="struct_queue.html">Queue</a> *Q);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="queue_8h.html#a89840d7ec790d4b8fef47ae3e6120fb6">estVide</a>(<a class="code" href="struct_queue.html">Queue</a> *Q);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<a class="code" href="struct_queue.html">Queue</a>* <a class="code" href="queue_8h.html#a768e29a4a002f3c86c06bdbf7420be38">trierPatients</a>(<span class="keywordtype">int</span> Nombre_Patients,<a class="code" href="structpatient.html">patient</a>** Liste_Patients);</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astruct_queue_html_a344318fc1db2efc28d3cce1a33702b75"><div class="ttname"><a href="struct_queue.html#a344318fc1db2efc28d3cce1a33702b75">Queue::capacite</a></div><div class="ttdeci">unsigned int capacite</div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00008">queue.h:8</a></div></div>
+<div class="ttc" id="astruct_queue_html_a2ba4310ce36c62291da0649db715d60d"><div class="ttname"><a href="struct_queue.html#a2ba4310ce36c62291da0649db715d60d">Queue::elements</a></div><div class="ttdeci">patient ** elements</div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00010">queue.h:10</a></div></div>
+<div class="ttc" id="apatient_8h_html"><div class="ttname"><a href="patient_8h.html">patient.h</a></div></div>
+<div class="ttc" id="astruct_queue_html_a0bf6ad4952ce081299e7eb3c95eeeef4"><div class="ttname"><a href="struct_queue.html#a0bf6ad4952ce081299e7eb3c95eeeef4">Queue::taille</a></div><div class="ttdeci">unsigned int taille</div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00009">queue.h:9</a></div></div>
+<div class="ttc" id="aqueue_8h_html_a17b98cf7a290240aca595fa0462803d6"><div class="ttname"><a href="queue_8h.html#a17b98cf7a290240aca595fa0462803d6">element_debut_queue</a></div><div class="ttdeci">patient * element_debut_queue(Queue *Q)</div><div class="ttdoc">Fournit l'élément en tête de file.</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00052">queue.c:52</a></div></div>
+<div class="ttc" id="aqueue_8h_html_a768e29a4a002f3c86c06bdbf7420be38"><div class="ttname"><a href="queue_8h.html#a768e29a4a002f3c86c06bdbf7420be38">trierPatients</a></div><div class="ttdeci">Queue * trierPatients(int Nombre_Patients, patient **Liste_Patients)</div><div class="ttdoc">Créée une queue de patients ordonnée par ordre d'arrivée.</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00141">queue.c:141</a></div></div>
+<div class="ttc" id="aqueue_8h_html_afb4a25606ed72b5f800620b90f9b6f22"><div class="ttname"><a href="queue_8h.html#afb4a25606ed72b5f800620b90f9b6f22">afficherQueue</a></div><div class="ttdeci">void afficherQueue(Queue *Q)</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00122">queue.c:122</a></div></div>
+<div class="ttc" id="astructpatient_html"><div class="ttname"><a href="structpatient.html">patient</a></div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00013">patient.h:13</a></div></div>
+<div class="ttc" id="aqueue_8h_html_a50c657862cadc709779c65dddfb4b661"><div class="ttname"><a href="queue_8h.html#a50c657862cadc709779c65dddfb4b661">dequeue</a></div><div class="ttdeci">void dequeue(Queue *Q)</div><div class="ttdoc">Retire l'adresse d'un patient en tête de file d'une Queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00099">queue.c:99</a></div></div>
+<div class="ttc" id="aqueue_8h_html_acf1baaebc367b53b7a88e9317d77e321"><div class="ttname"><a href="queue_8h.html#acf1baaebc367b53b7a88e9317d77e321">enqueue</a></div><div class="ttdeci">void enqueue(Queue *Q, patient *element)</div><div class="ttdoc">Ajoute l'adresse d'un patient en bout de file dans la Queue souhaitée.</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00068">queue.c:68</a></div></div>
+<div class="ttc" id="aqueue_8h_html_a89840d7ec790d4b8fef47ae3e6120fb6"><div class="ttname"><a href="queue_8h.html#a89840d7ec790d4b8fef47ae3e6120fb6">estVide</a></div><div class="ttdeci">bool estVide(Queue *Q)</div><div class="ttdoc">Test de vacuité d'une Queue.</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00037">queue.c:37</a></div></div>
+<div class="ttc" id="aqueue_8h_html_a8754fb0edc8076afe6b6e76995a43c60"><div class="ttname"><a href="queue_8h.html#a8754fb0edc8076afe6b6e76995a43c60">creerQueue</a></div><div class="ttdeci">Queue * creerQueue(unsigned int maxElements)</div><div class="ttdoc">Instancie une queue de capacité maximale donnée, pouvant être utilisée dans la simulation.</div><div class="ttdef"><b>Definition:</b> <a href="queue_8c_source.html#l00017">queue.c:17</a></div></div>
+<div class="ttc" id="astruct_queue_html_ad14a63176f0e9bb094078c2506930a0d"><div class="ttname"><a href="struct_queue.html#ad14a63176f0e9bb094078c2506930a0d">Queue::fin</a></div><div class="ttdeci">int fin</div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00012">queue.h:12</a></div></div>
+<div class="ttc" id="astruct_queue_html_a2b22645608eca744209abc91d0a52639"><div class="ttname"><a href="struct_queue.html#a2b22645608eca744209abc91d0a52639">Queue::debut</a></div><div class="ttdeci">int debut</div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00011">queue.h:11</a></div></div>
+<div class="ttc" id="astruct_queue_html"><div class="ttname"><a href="struct_queue.html">Queue</a></div><div class="ttdef"><b>Definition:</b> <a href="queue_8h_source.html#l00007">queue.h:7</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

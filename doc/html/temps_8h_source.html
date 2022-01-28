@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>simulation_urgences:  Fichier source de G:/TC02/NF05/PROJET/simulation_urgences/temps.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="R9a9e6c9ad22a3ccc249e2ebf10d5d697.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">simulation_urgences
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simulation d&#39;un flux de patients au sein d&#39;un service d&#39;urgences.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">G:/TC02/NF05/PROJET/simulation_urgences/temps.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="temps_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;ctype.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//les headers sont imbriqués : temps.h-&gt;aleatoire.h-&gt;patient.h-&gt;queue.h-&gt;salles.h-&gt;main.c.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structtemps.html">   12</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structtemps.html#a1ede4e95d65a084e89673520a97a84e6">   13</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="structtemps.html#a1ede4e95d65a084e89673520a97a84e6">annee</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structtemps.html#ab128ebce0d502e4bb757e9e2fc0f2f13">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structtemps.html#ab128ebce0d502e4bb757e9e2fc0f2f13">mois</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structtemps.html#a6695e70643be3974198cdc71e0e56368">   15</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structtemps.html#a6695e70643be3974198cdc71e0e56368">jour</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structtemps.html#acd9c171bf821cc269d5e398d0ef170a5">   16</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structtemps.html#acd9c171bf821cc269d5e398d0ef170a5">h</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structtemps.html#a5c44f70d4d420ccd8bbf3667cac34022">   17</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structtemps.html#a5c44f70d4d420ccd8bbf3667cac34022">m</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;} <a class="code" href="structtemps.html">temps</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//fonctions d&#39;interaction utilisateur</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a805f024985dcaa7a6bec43095d8990a9">demander_duree</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a3eb0b4e2216d80cb4b835c3e7ef6955b">demander_heure</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a54f1bd7d22a9598eb010a8ea3152d8ca">demander_date_heure</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a8eef0f9e961c61abc041d51a6e68dc07">demander_date</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a392a56219736519e5abb210ad9f67383">demander_annee_mois</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#ab54a9d70f29755a3868cf6df238cff73">demander_jour_heure</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> annee,<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mois);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">//procédures d&#39;affichage</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#a923eac6dcca18055fce76cbea048ed40">afficher_heure</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#ab43e72c2edbbd3e180e79c9a09a562f7">afficher_date</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#ad514150228829b3beac6d157ca97750f">afficher_date_heure</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="temps_8h.html#a393c4f6d4fa1d6472d63f7ab94fc7f55">h_to_string</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//fonctions intermédiaires</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">char</span> <a class="code" href="temps_8h.html#aaf2c8e6045effc179ad1cbad717416fd">digit_en_int</a>(<span class="keywordtype">char</span> *chaine,<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> indice);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#ad91638b601fe03ea6e0ad2617ad0326a">estBissextile</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> annee);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#a4570c970f18e234df4c835ed19327c26">jmSontCorrects</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> jour, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mois, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> annee);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#aae393b86938adce806d3b2d3eadc1502">estDernierJourMois</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#a50df75377a99abfdd7bf1b73d60698da">estDernierMois</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#ab7e006ed30d7bc1b8079c89bb83d2785">estDerniereHeure</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#a498cf66dc37ef4d15afca752ba4d545f">estDerniereMinute</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#a11b9c21874a289b500069369701e1bf1">incrementerTemps</a>(<a class="code" href="structtemps.html">temps</a> *t);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a25f176f4fd72e9478a1ff96a20ac6b45">decrementerTemps</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="temps_8h.html#a1613ecd92d049bf3111f0bb194a59a33">estNul</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#a7b65ae2942c2ceddaf59b92851278db5">ajouterTemps</a>(<a class="code" href="structtemps.html">temps</a> *t1,<a class="code" href="structtemps.html">temps</a> t2);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">char</span> <a class="code" href="temps_8h.html#ae694ba2fedae28520201167dc56b2495">comparerTemps</a>(<a class="code" href="structtemps.html">temps</a> temps1,<a class="code" href="structtemps.html">temps</a> temps2);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="temps_8h.html#a1c16374136babbfd5caa30c0aa3ab1e4">diffTemps</a>(<a class="code" href="structtemps.html">temps</a> t1,<a class="code" href="structtemps.html">temps</a> t2);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="temps_8h.html#aca1b475930a200a027ff12bb4a2f5960">diffTemps_minutes</a>(<a class="code" href="structtemps.html">temps</a> t1,<a class="code" href="structtemps.html">temps</a> t2);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">double</span> <a class="code" href="temps_8h.html#a79d896be62cdc024baeda9c86fcdcabf">convertir_temps_minutes</a>(<a class="code" href="structtemps.html">temps</a> t);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#a8b24107fd7a016ba24d107ceafae3e14">dureeMoyenne</a>(<a class="code" href="structtemps.html">temps</a> t,<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> diviseur);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keywordtype">double</span> <a class="code" href="temps_8h.html#a44b7271f8aaa54fd07c8bc6cc43e0c04">ecart_type</a>(<a class="code" href="structtemps.html">temps</a> *tab_temps,<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> nb);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">void</span> <a class="code" href="temps_8h.html#a348278859da408a81686c5f6979a8d0e">trierDurees</a>(<a class="code" href="structtemps.html">temps</a> *tab_temps,<span class="keywordtype">int</span> nb);</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="atemps_8h_html_a1613ecd92d049bf3111f0bb194a59a33"><div class="ttname"><a href="temps_8h.html#a1613ecd92d049bf3111f0bb194a59a33">estNul</a></div><div class="ttdeci">bool estNul(temps t)</div><div class="ttdoc">Test de &quot;nullité&quot; d'une valeur temporelle (0j0m0a 00h00min)</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00667">temps.c:667</a></div></div>
+<div class="ttc" id="astructtemps_html_acd9c171bf821cc269d5e398d0ef170a5"><div class="ttname"><a href="structtemps.html#acd9c171bf821cc269d5e398d0ef170a5">temps::h</a></div><div class="ttdeci">unsigned char h</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00016">temps.h:16</a></div></div>
+<div class="ttc" id="atemps_8h_html_a54f1bd7d22a9598eb010a8ea3152d8ca"><div class="ttname"><a href="temps_8h.html#a54f1bd7d22a9598eb010a8ea3152d8ca">demander_date_heure</a></div><div class="ttdeci">temps demander_date_heure()</div><div class="ttdoc">Demande à l'utilisateur de saisir une date au format jj/mm/aaaa, puis une heure au format hh:mm ou hh...</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00083">temps.c:83</a></div></div>
+<div class="ttc" id="atemps_8h_html_a393c4f6d4fa1d6472d63f7ab94fc7f55"><div class="ttname"><a href="temps_8h.html#a393c4f6d4fa1d6472d63f7ab94fc7f55">h_to_string</a></div><div class="ttdeci">char * h_to_string(temps t)</div><div class="ttdoc">Convertit une heure en une chaîne de caractères de la forme &quot;hh:mm&quot;.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00325">temps.c:325</a></div></div>
+<div class="ttc" id="atemps_8h_html_a498cf66dc37ef4d15afca752ba4d545f"><div class="ttname"><a href="temps_8h.html#a498cf66dc37ef4d15afca752ba4d545f">estDerniereMinute</a></div><div class="ttdeci">bool estDerniereMinute(temps t)</div><div class="ttdoc">Test de valeur maximale d'un nombre de minutes.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00547">temps.c:547</a></div></div>
+<div class="ttc" id="atemps_8h_html_a392a56219736519e5abb210ad9f67383"><div class="ttname"><a href="temps_8h.html#a392a56219736519e5abb210ad9f67383">demander_annee_mois</a></div><div class="ttdeci">temps demander_annee_mois()</div><div class="ttdoc">Demande à l'utilisateur de saisir une année et un mois.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00251">temps.c:251</a></div></div>
+<div class="ttc" id="astructtemps_html_a5c44f70d4d420ccd8bbf3667cac34022"><div class="ttname"><a href="structtemps.html#a5c44f70d4d420ccd8bbf3667cac34022">temps::m</a></div><div class="ttdeci">unsigned char m</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00017">temps.h:17</a></div></div>
+<div class="ttc" id="astructtemps_html"><div class="ttname"><a href="structtemps.html">temps</a></div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00012">temps.h:12</a></div></div>
+<div class="ttc" id="atemps_8h_html_a8eef0f9e961c61abc041d51a6e68dc07"><div class="ttname"><a href="temps_8h.html#a8eef0f9e961c61abc041d51a6e68dc07">demander_date</a></div><div class="ttdeci">temps demander_date()</div><div class="ttdoc">Demande à l'utilisateur de saisir une date au format jj/mm/aaaa.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00133">temps.c:133</a></div></div>
+<div class="ttc" id="atemps_8h_html_aaf2c8e6045effc179ad1cbad717416fd"><div class="ttname"><a href="temps_8h.html#aaf2c8e6045effc179ad1cbad717416fd">digit_en_int</a></div><div class="ttdeci">char digit_en_int(char *chaine, unsigned char indice)</div><div class="ttdoc">Convertit un caractère représentant un chiffre en la valeur numérique de ce chiffre.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00352">temps.c:352</a></div></div>
+<div class="ttc" id="atemps_8h_html_a805f024985dcaa7a6bec43095d8990a9"><div class="ttname"><a href="temps_8h.html#a805f024985dcaa7a6bec43095d8990a9">demander_duree</a></div><div class="ttdeci">temps demander_duree()</div><div class="ttdoc">Demande à l'utilisateur de saisir une durée au format hh:mm ou mm.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00013">temps.c:13</a></div></div>
+<div class="ttc" id="atemps_8h_html_a79d896be62cdc024baeda9c86fcdcabf"><div class="ttname"><a href="temps_8h.html#a79d896be62cdc024baeda9c86fcdcabf">convertir_temps_minutes</a></div><div class="ttdeci">double convertir_temps_minutes(temps t)</div><div class="ttdoc">Convertit une valeur temporelle en un nombre réel de minutes.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00840">temps.c:840</a></div></div>
+<div class="ttc" id="astructtemps_html_ab128ebce0d502e4bb757e9e2fc0f2f13"><div class="ttname"><a href="structtemps.html#ab128ebce0d502e4bb757e9e2fc0f2f13">temps::mois</a></div><div class="ttdeci">unsigned char mois</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00014">temps.h:14</a></div></div>
+<div class="ttc" id="atemps_8h_html_a50df75377a99abfdd7bf1b73d60698da"><div class="ttname"><a href="temps_8h.html#a50df75377a99abfdd7bf1b73d60698da">estDernierMois</a></div><div class="ttdeci">bool estDernierMois(temps t)</div><div class="ttdoc">Test de valeur maximale d'un mois.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00523">temps.c:523</a></div></div>
+<div class="ttc" id="atemps_8h_html_a1c16374136babbfd5caa30c0aa3ab1e4"><div class="ttname"><a href="temps_8h.html#a1c16374136babbfd5caa30c0aa3ab1e4">diffTemps</a></div><div class="ttdeci">temps diffTemps(temps t1, temps t2)</div><div class="ttdoc">Calcul de la différence entre la plus grande et la plus petite de deux valeurs temporelles.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00706">temps.c:706</a></div></div>
+<div class="ttc" id="atemps_8h_html_ab54a9d70f29755a3868cf6df238cff73"><div class="ttname"><a href="temps_8h.html#ab54a9d70f29755a3868cf6df238cff73">demander_jour_heure</a></div><div class="ttdeci">temps demander_jour_heure(unsigned short int annee, unsigned char mois)</div><div class="ttdoc">Demande à l'utilisateur de saisir le jour d'un mois donné et une heure.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00298">temps.c:298</a></div></div>
+<div class="ttc" id="atemps_8h_html_a8b24107fd7a016ba24d107ceafae3e14"><div class="ttname"><a href="temps_8h.html#a8b24107fd7a016ba24d107ceafae3e14">dureeMoyenne</a></div><div class="ttdeci">void dureeMoyenne(temps t, unsigned short int diviseur)</div><div class="ttdoc">Divise un nombre réel de minutes par un effectif et affiche de manière optimisée la valeur temporelle...</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00855">temps.c:855</a></div></div>
+<div class="ttc" id="atemps_8h_html_a348278859da408a81686c5f6979a8d0e"><div class="ttname"><a href="temps_8h.html#a348278859da408a81686c5f6979a8d0e">trierDurees</a></div><div class="ttdeci">void trierDurees(temps *tab_temps, int nb)</div><div class="ttdoc">Trie un tableau contenant des valeurs temporelles dans l'ordre croissant.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00957">temps.c:957</a></div></div>
+<div class="ttc" id="atemps_8h_html_a4570c970f18e234df4c835ed19327c26"><div class="ttname"><a href="temps_8h.html#a4570c970f18e234df4c835ed19327c26">jmSontCorrects</a></div><div class="ttdeci">bool jmSontCorrects(unsigned char jour, unsigned char mois, unsigned short int annee)</div><div class="ttdoc">Test de correction d'une date.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00389">temps.c:389</a></div></div>
+<div class="ttc" id="atemps_8h_html_ab7e006ed30d7bc1b8079c89bb83d2785"><div class="ttname"><a href="temps_8h.html#ab7e006ed30d7bc1b8079c89bb83d2785">estDerniereHeure</a></div><div class="ttdeci">bool estDerniereHeure(temps t)</div><div class="ttdoc">Test de valeur maximale d'une heure.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00535">temps.c:535</a></div></div>
+<div class="ttc" id="atemps_8h_html_a7b65ae2942c2ceddaf59b92851278db5"><div class="ttname"><a href="temps_8h.html#a7b65ae2942c2ceddaf59b92851278db5">ajouterTemps</a></div><div class="ttdeci">void ajouterTemps(temps *t1, temps t2)</div><div class="ttdoc">Calcul de la somme de deux valeurs temporelles et stockage du résultat à l'adresse de la première.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00683">temps.c:683</a></div></div>
+<div class="ttc" id="atemps_8h_html_ad514150228829b3beac6d157ca97750f"><div class="ttname"><a href="temps_8h.html#ad514150228829b3beac6d157ca97750f">afficher_date_heure</a></div><div class="ttdeci">void afficher_date_heure(temps t)</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00335">temps.c:335</a></div></div>
+<div class="ttc" id="astructtemps_html_a6695e70643be3974198cdc71e0e56368"><div class="ttname"><a href="structtemps.html#a6695e70643be3974198cdc71e0e56368">temps::jour</a></div><div class="ttdeci">unsigned char jour</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00015">temps.h:15</a></div></div>
+<div class="ttc" id="atemps_8h_html_ab43e72c2edbbd3e180e79c9a09a562f7"><div class="ttname"><a href="temps_8h.html#ab43e72c2edbbd3e180e79c9a09a562f7">afficher_date</a></div><div class="ttdeci">void afficher_date(temps t)</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00331">temps.c:331</a></div></div>
+<div class="ttc" id="atemps_8h_html_ad91638b601fe03ea6e0ad2617ad0326a"><div class="ttname"><a href="temps_8h.html#ad91638b601fe03ea6e0ad2617ad0326a">estBissextile</a></div><div class="ttdeci">bool estBissextile(unsigned short int annee)</div><div class="ttdoc">Teste la bissextilité d'une année.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00368">temps.c:368</a></div></div>
+<div class="ttc" id="atemps_8h_html_a923eac6dcca18055fce76cbea048ed40"><div class="ttname"><a href="temps_8h.html#a923eac6dcca18055fce76cbea048ed40">afficher_heure</a></div><div class="ttdeci">void afficher_heure(temps t)</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00313">temps.c:313</a></div></div>
+<div class="ttc" id="atemps_8h_html_aae393b86938adce806d3b2d3eadc1502"><div class="ttname"><a href="temps_8h.html#aae393b86938adce806d3b2d3eadc1502">estDernierJourMois</a></div><div class="ttdeci">bool estDernierJourMois(temps t)</div><div class="ttdoc">Test de valeur maximale d'un jour pour un mois donné.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00460">temps.c:460</a></div></div>
+<div class="ttc" id="atemps_8h_html_aca1b475930a200a027ff12bb4a2f5960"><div class="ttname"><a href="temps_8h.html#aca1b475930a200a027ff12bb4a2f5960">diffTemps_minutes</a></div><div class="ttdeci">unsigned int diffTemps_minutes(temps t1, temps t2)</div><div class="ttdoc">Calcul de la différence entre la plus grande et la plus petite de deux valeurs temporelles,...</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00740">temps.c:740</a></div></div>
+<div class="ttc" id="atemps_8h_html_a25f176f4fd72e9478a1ff96a20ac6b45"><div class="ttname"><a href="temps_8h.html#a25f176f4fd72e9478a1ff96a20ac6b45">decrementerTemps</a></div><div class="ttdeci">temps decrementerTemps(temps t)</div><div class="ttdoc">Retrait d'une minute à une valeur temporelle en conservant une expression de la date et de l'heure va...</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00609">temps.c:609</a></div></div>
+<div class="ttc" id="atemps_8h_html_a3eb0b4e2216d80cb4b835c3e7ef6955b"><div class="ttname"><a href="temps_8h.html#a3eb0b4e2216d80cb4b835c3e7ef6955b">demander_heure</a></div><div class="ttdeci">temps demander_heure()</div><div class="ttdoc">Demande à l'utilisateur de saisir une heure au format hh:mm ou hh.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00176">temps.c:176</a></div></div>
+<div class="ttc" id="atemps_8h_html_ae694ba2fedae28520201167dc56b2495"><div class="ttname"><a href="temps_8h.html#ae694ba2fedae28520201167dc56b2495">comparerTemps</a></div><div class="ttdeci">char comparerTemps(temps temps1, temps temps2)</div><div class="ttdoc">Compare deux valeurs temporelles.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00775">temps.c:775</a></div></div>
+<div class="ttc" id="atemps_8h_html_a11b9c21874a289b500069369701e1bf1"><div class="ttname"><a href="temps_8h.html#a11b9c21874a289b500069369701e1bf1">incrementerTemps</a></div><div class="ttdeci">void incrementerTemps(temps *t)</div><div class="ttdoc">Ajout d'une minute à une valeur temporelle en conservant une expression de la date et de l'heure vali...</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00561">temps.c:561</a></div></div>
+<div class="ttc" id="astructtemps_html_a1ede4e95d65a084e89673520a97a84e6"><div class="ttname"><a href="structtemps.html#a1ede4e95d65a084e89673520a97a84e6">temps::annee</a></div><div class="ttdeci">unsigned short int annee</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00013">temps.h:13</a></div></div>
+<div class="ttc" id="atemps_8h_html_a44b7271f8aaa54fd07c8bc6cc43e0c04"><div class="ttname"><a href="temps_8h.html#a44b7271f8aaa54fd07c8bc6cc43e0c04">ecart_type</a></div><div class="ttdeci">double ecart_type(temps *tab_temps, unsigned short int nb)</div><div class="ttdoc">Calcule l'écart-type d'une série statistique durée/individu.</div><div class="ttdef"><b>Definition:</b> <a href="temps_8c_source.html#l00932">temps.c:932</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

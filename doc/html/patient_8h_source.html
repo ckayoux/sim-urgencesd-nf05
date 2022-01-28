@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>simulation_urgences:  Fichier source de G:/TC02/NF05/PROJET/simulation_urgences/patient.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="R9a9e6c9ad22a3ccc249e2ebf10d5d697.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">simulation_urgences
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simulation d&#39;un flux de patients au sein d&#39;un service d&#39;urgences.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">G:/TC02/NF05/PROJET/simulation_urgences/patient.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="patient_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="aleatoire_8h.html">aleatoire.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907">    4</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907">circuit</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907ae245e90149daf6036ece3cb84960aab1">    5</a></span>&#160;    <a class="code" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907ae245e90149daf6036ece3cb84960aab1">COURT</a>,</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907ab86309467500740b6a45155702e36424">    6</a></span>&#160;    <a class="code" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907ab86309467500740b6a45155702e36424">LONG_SIMPLE</a>,</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907a3c1eae44baeb152da42ff4576a63913d">LONG_EXAM_CPT</a> </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907a3c1eae44baeb152da42ff4576a63913d">    8</a></span>&#160;};</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structpatient.html">   13</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structpatient.html#a751fe23767dc796135f3bb711a2b9e75">   14</a></span>&#160;    <span class="keywordtype">char</span> nom[40]; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structpatient.html#a44ef26afa01c407b90e0ef0474266e4b">   15</a></span>&#160;    <span class="keywordtype">char</span> prenom[40];</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structpatient.html#a40ce59616a422a793804d9ef7baa1995">   16</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structpatient.html#a40ce59616a422a793804d9ef7baa1995">id</a>; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structpatient.html#acb4e5b72aee77b2e7fa57e3b826a469d">   17</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structpatient.html#acb4e5b72aee77b2e7fa57e3b826a469d">circuit</a>; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structpatient.html#ae23939e83979cbee00774ae75de6ace3">   18</a></span>&#160;    <a class="code" href="structtemps.html">temps</a> <a class="code" href="structpatient.html#ae23939e83979cbee00774ae75de6ace3">arrivee</a>; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structpatient.html#add67403d62e2740150bfea38fdf266b9">   19</a></span>&#160;    <a class="code" href="structtemps.html">temps</a> <a class="code" href="structpatient.html#add67403d62e2740150bfea38fdf266b9">sortie</a>; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structpatient.html#a595b073371fbe81581c391db3899dc15">   20</a></span>&#160;    <a class="code" href="structtemps.html">temps</a> <a class="code" href="structpatient.html#a595b073371fbe81581c391db3899dc15">duree_examen_complementaire</a>; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;} <a class="code" href="structpatient.html">patient</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<a class="code" href="structpatient.html">patient</a> *<a class="code" href="patient_8h.html#a872f83f436fc70d41fdf37405165d107">creerPatient</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="structpatient.html">patient</a>* <a class="code" href="patient_8h.html#ad2aea8bcada8be9acd5027784c4545bd">id_getPatient</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> ID,<a class="code" href="structpatient.html">patient</a>** liste_patients,<span class="keywordtype">int</span> nombre_patients);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="structpatient.html">patient</a>** <a class="code" href="patient_8h.html#a80e7249dcf2eace5c4978ab68b3714e0">genererPatients</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nb_patients,<a class="code" href="structtemps.html">temps</a> debut_plage_horaire, <a class="code" href="structtemps.html">temps</a> fin_plage_horaire);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="patient_8h.html#aec675c6b3fe32ec2a1cf9e7e20b1cd81">nommerPatients</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> nb_patients,<a class="code" href="structpatient.html">patient</a>** liste_patients) ;</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="apatient_8h_html_a872f83f436fc70d41fdf37405165d107"><div class="ttname"><a href="patient_8h.html#a872f83f436fc70d41fdf37405165d107">creerPatient</a></div><div class="ttdeci">patient * creerPatient()</div><div class="ttdoc">Instancie un nouveau patient dans la simulation.</div><div class="ttdef"><b>Definition:</b> <a href="patient_8c_source.html#l00009">patient.c:9</a></div></div>
+<div class="ttc" id="apatient_8h_html_a9f1a14e847c1c237682cd841a9178907a3c1eae44baeb152da42ff4576a63913d"><div class="ttname"><a href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907a3c1eae44baeb152da42ff4576a63913d">LONG_EXAM_CPT</a></div><div class="ttdeci">@ LONG_EXAM_CPT</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00008">patient.h:7</a></div></div>
+<div class="ttc" id="astructpatient_html_ae23939e83979cbee00774ae75de6ace3"><div class="ttname"><a href="structpatient.html#ae23939e83979cbee00774ae75de6ace3">patient::arrivee</a></div><div class="ttdeci">temps arrivee</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00018">patient.h:18</a></div></div>
+<div class="ttc" id="astructpatient_html_a595b073371fbe81581c391db3899dc15"><div class="ttname"><a href="structpatient.html#a595b073371fbe81581c391db3899dc15">patient::duree_examen_complementaire</a></div><div class="ttdeci">temps duree_examen_complementaire</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00020">patient.h:20</a></div></div>
+<div class="ttc" id="astructpatient_html_a40ce59616a422a793804d9ef7baa1995"><div class="ttname"><a href="structpatient.html#a40ce59616a422a793804d9ef7baa1995">patient::id</a></div><div class="ttdeci">unsigned int id</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00016">patient.h:16</a></div></div>
+<div class="ttc" id="astructtemps_html"><div class="ttname"><a href="structtemps.html">temps</a></div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00012">temps.h:12</a></div></div>
+<div class="ttc" id="apatient_8h_html_aec675c6b3fe32ec2a1cf9e7e20b1cd81"><div class="ttname"><a href="patient_8h.html#aec675c6b3fe32ec2a1cf9e7e20b1cd81">nommerPatients</a></div><div class="ttdeci">void nommerPatients(unsigned int nb_patients, patient **liste_patients)</div><div class="ttdoc">Nomme tous les patients d'une liste à partir des noms et prénoms contenus dans un fichier texte.</div><div class="ttdef"><b>Definition:</b> <a href="patient_8c_source.html#l00042">patient.c:42</a></div></div>
+<div class="ttc" id="apatient_8h_html_a9f1a14e847c1c237682cd841a9178907ab86309467500740b6a45155702e36424"><div class="ttname"><a href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907ab86309467500740b6a45155702e36424">LONG_SIMPLE</a></div><div class="ttdeci">@ LONG_SIMPLE</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00006">patient.h:6</a></div></div>
+<div class="ttc" id="apatient_8h_html_a9f1a14e847c1c237682cd841a9178907"><div class="ttname"><a href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907">circuit</a></div><div class="ttdeci">circuit</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00004">patient.h:4</a></div></div>
+<div class="ttc" id="apatient_8h_html_a9f1a14e847c1c237682cd841a9178907ae245e90149daf6036ece3cb84960aab1"><div class="ttname"><a href="patient_8h.html#a9f1a14e847c1c237682cd841a9178907ae245e90149daf6036ece3cb84960aab1">COURT</a></div><div class="ttdeci">@ COURT</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00005">patient.h:5</a></div></div>
+<div class="ttc" id="apatient_8h_html_ad2aea8bcada8be9acd5027784c4545bd"><div class="ttname"><a href="patient_8h.html#ad2aea8bcada8be9acd5027784c4545bd">id_getPatient</a></div><div class="ttdeci">patient * id_getPatient(unsigned short int ID, patient **liste_patients, int nombre_patients)</div><div class="ttdoc">Trouve un patient dans une liste à partir de son ID et renvoie un pointeur vers celui-ci.</div><div class="ttdef"><b>Definition:</b> <a href="patient_8c_source.html#l00024">patient.c:24</a></div></div>
+<div class="ttc" id="astructpatient_html_acb4e5b72aee77b2e7fa57e3b826a469d"><div class="ttname"><a href="structpatient.html#acb4e5b72aee77b2e7fa57e3b826a469d">patient::circuit</a></div><div class="ttdeci">unsigned char circuit</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00017">patient.h:17</a></div></div>
+<div class="ttc" id="astructpatient_html"><div class="ttname"><a href="structpatient.html">patient</a></div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00013">patient.h:13</a></div></div>
+<div class="ttc" id="astructpatient_html_add67403d62e2740150bfea38fdf266b9"><div class="ttname"><a href="structpatient.html#add67403d62e2740150bfea38fdf266b9">patient::sortie</a></div><div class="ttdeci">temps sortie</div><div class="ttdef"><b>Definition:</b> <a href="patient_8h_source.html#l00019">patient.h:19</a></div></div>
+<div class="ttc" id="aaleatoire_8h_html"><div class="ttname"><a href="aleatoire_8h.html">aleatoire.h</a></div></div>
+<div class="ttc" id="apatient_8h_html_a80e7249dcf2eace5c4978ab68b3714e0"><div class="ttname"><a href="patient_8h.html#a80e7249dcf2eace5c4978ab68b3714e0">genererPatients</a></div><div class="ttdeci">patient ** genererPatients(unsigned int nb_patients, temps debut_plage_horaire, temps fin_plage_horaire)</div><div class="ttdoc">Instancie un certain nombre de patients et leur attribue une heure d'arrivée comprise dans une plage ...</div><div class="ttdef"><b>Definition:</b> <a href="patient_8c_source.html#l00152">patient.c:152</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

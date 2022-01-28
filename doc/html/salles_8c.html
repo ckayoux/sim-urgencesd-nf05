@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>simulation_urgences: Référence du fichier G:/TC02/NF05/PROJET/simulation_urgences/salles.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="R9a9e6c9ad22a3ccc249e2ebf10d5d697.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">simulation_urgences
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simulation d&#39;un flux de patients au sein d&#39;un service d&#39;urgences.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier G:/TC02/NF05/PROJET/simulation_urgences/salles.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="salles_8h_source.html">salles.h</a>&quot;</code><br />
+</div>
+<p><a href="salles_8c_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ab31ca02a82373fd0c38b7dc765017f76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsalle__dattente.html">salle_dattente</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#ab31ca02a82373fd0c38b7dc765017f76">creerSalleDattente</a> (unsigned int maxElements, const char *message)</td></tr>
+<tr class="memdesc:ab31ca02a82373fd0c38b7dc765017f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instancie une salle d'attente d'intitulé donné, capable d'accueillir un nombre donné de patients.  <a href="salles_8c.html#ab31ca02a82373fd0c38b7dc765017f76">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ab31ca02a82373fd0c38b7dc765017f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647c9b0bb00267b3c8220f143f1892f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsalle__even.html">salle_even</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a647c9b0bb00267b3c8220f143f1892f4">creerSalleEven</a> (const char *message, <a class="el" href="structsalle__dattente.html">salle_dattente</a> *Salle_Prec, <a class="el" href="structsalle__dattente.html">salle_dattente</a> *Salle_Suiv, unsigned int nombre_patients, unsigned int D_Esperance, unsigned int D_Ecart, <a class="el" href="structsalle__even.html">salle_even</a> **Boxs, unsigned char Nombre_Boxs)</td></tr>
+<tr class="memdesc:a647c9b0bb00267b3c8220f143f1892f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instancie une salle d'examen ou la salle d'enregistrement.  <a href="salles_8c.html#a647c9b0bb00267b3c8220f143f1892f4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a647c9b0bb00267b3c8220f143f1892f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c356fda632f22019265eb76e6f11cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsalle__even.html">salle_even</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a3c356fda632f22019265eb76e6f11cdf">creerBox</a> (const char *message)</td></tr>
+<tr class="memdesc:a3c356fda632f22019265eb76e6f11cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instancie un nouveau box d'examen.  <a href="salles_8c.html#a3c356fda632f22019265eb76e6f11cdf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3c356fda632f22019265eb76e6f11cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdfaefa1a2ae1288d772d48efc21d02c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsalle__even.html">salle_even</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#abdfaefa1a2ae1288d772d48efc21d02c">grouperBoxs</a> (int nombre_boxs,...)</td></tr>
+<tr class="memdesc:abdfaefa1a2ae1288d772d48efc21d02c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Créée un tableau contenant l'adresse de tous les box passés en paramètres d'entrée.  <a href="salles_8c.html#abdfaefa1a2ae1288d772d48efc21d02c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abdfaefa1a2ae1288d772d48efc21d02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d6ea999ddfc95a1819d3934e3733b2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a3d6ea999ddfc95a1819d3934e3733b2c">patientsAttendent</a> (<a class="el" href="structsalle__dattente.html">salle_dattente</a> *Salle_Dattente)</td></tr>
+<tr class="memdesc:a3d6ea999ddfc95a1819d3934e3733b2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute une minute (par patient dans sa file) au temps d'attente total d'une salle d'attente.  <a href="salles_8c.html#a3d6ea999ddfc95a1819d3934e3733b2c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a3d6ea999ddfc95a1819d3934e3733b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14aa8a74e9d1a9e21d51a0efd9592db2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a14aa8a74e9d1a9e21d51a0efd9592db2">afficher_salle_dattente</a> (<a class="el" href="structsalle__dattente.html">salle_dattente</a> *Salle_Dattente)</td></tr>
+<tr class="separator:a14aa8a74e9d1a9e21d51a0efd9592db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23e22b98fc1f218ca1bf80e1c597212e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a23e22b98fc1f218ca1bf80e1c597212e">ajouterPatientSalleDattente</a> (<a class="el" href="structsalle__dattente.html">salle_dattente</a> *Salle_Dattente, <a class="el" href="structpatient.html">patient</a> *Patient)</td></tr>
+<tr class="memdesc:a23e22b98fc1f218ca1bf80e1c597212e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute l'adresse d'un patient la queue d'une salle d'attente (en bout de file).  <a href="salles_8c.html#a23e22b98fc1f218ca1bf80e1c597212e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a23e22b98fc1f218ca1bf80e1c597212e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed509bf34cb25f9031e2240619c01d06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#aed509bf34cb25f9031e2240619c01d06">afficher_salle_even</a> (<a class="el" href="structsalle__even.html">salle_even</a> *Salle_Even)</td></tr>
+<tr class="separator:aed509bf34cb25f9031e2240619c01d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219baa22d6a85b830a8b6388b9f6f546"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a219baa22d6a85b830a8b6388b9f6f546">trierStats</a> (<a class="el" href="structsalle__even.html">salle_even</a> *S)</td></tr>
+<tr class="memdesc:a219baa22d6a85b830a8b6388b9f6f546"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trie conjointement deux tableaux servant à l'établissement de statistiques d'une salle "d'événement".  <a href="salles_8c.html#a219baa22d6a85b830a8b6388b9f6f546">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a219baa22d6a85b830a8b6388b9f6f546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9051543366ad4f30148d6f16fed26e64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtemps.html">temps</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="salles_8c.html#a9051543366ad4f30148d6f16fed26e64">dureeTotale</a> (<a class="el" href="structsalle__even.html">salle_even</a> *S)</td></tr>
+<tr class="memdesc:a9051543366ad4f30148d6f16fed26e64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fait le total des durées contenues dans le tableau de durées d'une salle.  <a href="salles_8c.html#a9051543366ad4f30148d6f16fed26e64">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a9051543366ad4f30148d6f16fed26e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a14aa8a74e9d1a9e21d51a0efd9592db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14aa8a74e9d1a9e21d51a0efd9592db2">&#9670;&nbsp;</a></span>afficher_salle_dattente()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficher_salle_dattente </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsalle__dattente.html">salle_dattente</a> *&#160;</td>
+          <td class="paramname"><em>Salle_Dattente</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00149">149</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="aed509bf34cb25f9031e2240619c01d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed509bf34cb25f9031e2240619c01d06">&#9670;&nbsp;</a></span>afficher_salle_even()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficher_salle_even </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsalle__even.html">salle_even</a> *&#160;</td>
+          <td class="paramname"><em>Salle_Even</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00172">172</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="a23e22b98fc1f218ca1bf80e1c597212e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23e22b98fc1f218ca1bf80e1c597212e">&#9670;&nbsp;</a></span>ajouterPatientSalleDattente()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ajouterPatientSalleDattente </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsalle__dattente.html">salle_dattente</a> *&#160;</td>
+          <td class="paramname"><em>Salle_Dattente</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structpatient.html">patient</a> *&#160;</td>
+          <td class="paramname"><em>Patient</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ajoute l'adresse d'un patient la queue d'une salle d'attente (en bout de file). </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">L'adresse</td><td>d'une salle d'attente (salle_dattente*). </td></tr>
+    <tr><td class="paramname">L'adresse</td><td>du patient transféré (patient*).</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Ajout du patient en bout de file du champ QUEUE de la salle d'attente à l'aide de la fonction enqueue de <a class="el" href="queue_8c.html">queue.c</a>. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00165">165</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="a3c356fda632f22019265eb76e6f11cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c356fda632f22019265eb76e6f11cdf">&#9670;&nbsp;</a></span>creerBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsalle__even.html">salle_even</a>* creerBox </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instancie un nouveau box d'examen. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Un</td><td>message décrivant le nouveau box (chaîne de caractères). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un pointeur vers le box nouvellement créée (salle_even*).</dd></dl>
+<p>Réservation d'espace mémoire pour une nouvelle salle "d'événement" et conservation d'un pointeur vers celle-ci. Initialisation des champs - beaucoup de champs de la structure (<a class="el" href="structsalle__even.html">salle_even</a>) seront inutilisés pour les box. Retour de l'adresse du box nouvellement créé. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00088">88</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="ab31ca02a82373fd0c38b7dc765017f76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab31ca02a82373fd0c38b7dc765017f76">&#9670;&nbsp;</a></span>creerSalleDattente()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsalle__dattente.html">salle_dattente</a>* creerSalleDattente </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>maxElements</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instancie une salle d'attente d'intitulé donné, capable d'accueillir un nombre donné de patients. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Le</td><td>nombre de patients à accueillir dans la salle d'attente (entier non signés). </td></tr>
+    <tr><td class="paramname">Un</td><td>message décrivant la salle (chaîne de caractères). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un pointeur vers la salle d'attente nouvellement créée (salle_dattente*).</dd></dl>
+<p>Réservation d'espace mémoire pour une nouvelle salle d'attente et conservation d'un pointeur vers celle-ci. Création d'une nouvelle <a class="el" href="struct_queue.html">Queue</a> de capacité le nombre de patients à accueillir, qui représentera la file de patients de la salle d'attente. Affectation du message passé en paramètre d'entrée et de la <a class="el" href="struct_queue.html">Queue</a> nouvellement créée aux champs prévus à cet effet. Initialisation des champs de la nouvelle salle d'attente. Retour d'un pointeur vers la nouvelle salle d'attente. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00016">16</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="a647c9b0bb00267b3c8220f143f1892f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647c9b0bb00267b3c8220f143f1892f4">&#9670;&nbsp;</a></span>creerSalleEven()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsalle__even.html">salle_even</a>* creerSalleEven </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structsalle__dattente.html">salle_dattente</a> *&#160;</td>
+          <td class="paramname"><em>Salle_Prec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structsalle__dattente.html">salle_dattente</a> *&#160;</td>
+          <td class="paramname"><em>Salle_Suiv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>nombre_patients</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>D_Esperance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>D_Ecart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structsalle__even.html">salle_even</a> **&#160;</td>
+          <td class="paramname"><em>Boxs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>Nombre_Boxs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Instancie une salle d'examen ou la salle d'enregistrement. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Un</td><td>message décrivant la salle (chaîne de caractères). </td></tr>
+    <tr><td class="paramname">L'adresse</td><td>de la salle d'attente précédente s'il y en a une. (salle_dattente*). </td></tr>
+    <tr><td class="paramname">L'adresse</td><td>de la salle d'attente suivante s'il y en a une. (salle_dattente*). </td></tr>
+    <tr><td class="paramname">Le</td><td>nombre de patients qui entreront dans la salle. (entier non signé). </td></tr>
+    <tr><td class="paramname">L'espérance,en</td><td>minutes, pour la génération aléatoire de la durée de la tâche associée à cette salle (entier non signé). </td></tr>
+    <tr><td class="paramname">L'écart-type,en</td><td>minutes, pour la génération aléatoire de la durée de la tâche associée à cette salle (entier non signé). </td></tr>
+    <tr><td class="paramname">Un</td><td>tableau "Boxs" contenant l'adresse d'autres salles - qui seront les boxs de la salle nouvellement créée, si elle en a (salle_even**). </td></tr>
+    <tr><td class="paramname">Le</td><td>nombre de box que contiendra la salle nouvellement créée (caractère non signé). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un pointeur vers la salle "d'événement" nouvellement créée (salle_even*).</dd></dl>
+<p>Réservation d'espace mémoire pour une nouvelle salle "d'événement" et conservation d'un pointeur vers celle-ci. Initialisation des champs de la salle. Réservation d'espace mémoire pour les différents tableaux servant à l'établissement des statistiques associées à la salle Affectation des valeurs passées en paramètres d'entrée aux champs de la salle prévus à cet effet Retour de l'adresse de la salle "d'événement" nouvellement créée. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00049">49</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="a9051543366ad4f30148d6f16fed26e64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9051543366ad4f30148d6f16fed26e64">&#9670;&nbsp;</a></span>dureeTotale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtemps.html">temps</a> dureeTotale </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsalle__even.html">salle_even</a> *&#160;</td>
+          <td class="paramname"><em>S</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fait le total des durées contenues dans le tableau de durées d'une salle. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">L'adresse</td><td>d'une salle "d'événement" (salle_even*). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>La durée totale calculée (temps).</dd></dl>
+<p>Additionne toutes les durées contenues dans le champ "tab_durees" de la salle. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00227">227</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="abdfaefa1a2ae1288d772d48efc21d02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdfaefa1a2ae1288d772d48efc21d02c">&#9670;&nbsp;</a></span>grouperBoxs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsalle__even.html">salle_even</a>** grouperBoxs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nombre_boxs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Créée un tableau contenant l'adresse de tous les box passés en paramètres d'entrée. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Le</td><td>nombre nombre_boxs de box à assembler (entier). </td></tr>
+    <tr><td class="paramname">L'adresse</td><td>de chaque box à intégrer à l'ensemble créé. La fonction est à nombre d'arguments variable, on peut donc passer autant de box qu'on le souhaite. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Un tableau regroupant les adresses des box passés en arguments d'entrée (salle_even**).</dd></dl>
+<p>Réservation d'espace mémoire pour un tableau pouvant contenir nombre_boxs pointeurs vers des box. Insertion des box donnés en arguments dans le tableau. Retour du tableau. Cette fonction est utilisée pour affecter le champ "boxs" des salles d'examen du circuit court et du circuit long </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00116">116</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="a3d6ea999ddfc95a1819d3934e3733b2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d6ea999ddfc95a1819d3934e3733b2c">&#9670;&nbsp;</a></span>patientsAttendent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void patientsAttendent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsalle__dattente.html">salle_dattente</a> *&#160;</td>
+          <td class="paramname"><em>Salle_Dattente</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ajoute une minute (par patient dans sa file) au temps d'attente total d'une salle d'attente. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">L'adresse</td><td>d'une salle d'attente (salle_dattente*).</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Ïncrémentation du compteur de minutes attendues de la <a class="el" href="structsalle__dattente.html">salle_dattente</a> pour chaque patient présent dans sa <a class="el" href="struct_queue.html">Queue</a>. Procédure utilisée pour mettre à jour le temps d'attente total des salles d'attente à chaque fois que le temps virtuel de la simulation est incrémenté, pour permettre le calcul du temps d'attente moyen par salle d'attente. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00139">139</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+<a id="a219baa22d6a85b830a8b6388b9f6f546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219baa22d6a85b830a8b6388b9f6f546">&#9670;&nbsp;</a></span>trierStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void trierStats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structsalle__even.html">salle_even</a> *&#160;</td>
+          <td class="paramname"><em>S</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trie conjointement deux tableaux servant à l'établissement de statistiques d'une salle "d'événement". </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">L'adresse</td><td>d'une salle d'événement S.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Trie le tableau de durées "tab_durees" de la salle par ordre de valeurs temporelles croissantes en utilisant la fonction <a class="el" href="temps_8c.html#ae694ba2fedae28520201167dc56b2495" title="Compare deux valeurs temporelles.">comparerTemps()</a> définie dans <a class="el" href="temps_8c.html">temps.c</a>. Trie en même temps le tableau d'id des patients correspondants "tab_id_patients" en permutant les cases de même indice. (Les durées de "tab_durees" correspondent au temps de séjour des patients dont les id sont contenus aux mêmes indices du tableau "tab_id_patients"). Procédure utilisée pour permettre l'établissement des statistiques liées au temps de séjour des patients dans les salles. </p>
+
+<p class="definition">Définition à la ligne <a class="el" href="salles_8c_source.html#l00195">195</a> du fichier <a class="el" href="salles_8c_source.html">salles.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

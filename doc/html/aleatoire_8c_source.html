@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>simulation_urgences:  Fichier source de G:/TC02/NF05/PROJET/simulation_urgences/aleatoire.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="R9a9e6c9ad22a3ccc249e2ebf10d5d697.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">simulation_urgences
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Simulation d&#39;un flux de patients au sein d&#39;un service d&#39;urgences.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">G:/TC02/NF05/PROJET/simulation_urgences/aleatoire.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="aleatoire_8c.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//Temps : à peu près 5h</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="aleatoire_8h.html">aleatoire.h</a>&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//Référence : https://fr.wikipedia.org/wiki/Loi_normale</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="aleatoire_8h.html#aeed8498cbad80a2d4b08e1c78acfd73e">   18</a></span>&#160;<a class="code" href="structtemps.html">temps</a> <a class="code" href="aleatoire_8c.html#aeed8498cbad80a2d4b08e1c78acfd73e">genererDureeTache</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> esperance, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ecart)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">double</span> eps = 0.005;<span class="comment">//définition d&#39;un epsilon pour majorer les erreurs maximales souhaitées.</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">double</span> pmax = <a class="code" href="aleatoire_8c.html#a2e5d63501642f6733e1d10451717ea27">integrale_LN</a>(esperance,ecart,eps,esperance+ecart); <span class="comment">//probabilité correspondant à la durée maximale esperance+ecart.</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">double</span> p;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    p = rand()/((double)RAND_MAX/pmax); <span class="comment">//génération d&#39;une probabilité comprise entre 0 et pmax.</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">double</span> a = esperance-ecart; <span class="comment">//borne inférieure a  initialisée à la durée minimale</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">double</span> b = esperance+ecart;<span class="comment">//borne supérieure b initialisée à la durée maximale</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">double</span> x; <span class="comment">//abscisse recherchée</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">double</span> y; <span class="comment">//ordonnée de P(x) (P est la fonction de répartition de la loi normale N(esperance,(ecart/3)²)</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span>(p&lt;0.5+eps &amp;&amp; p&gt;0.5-eps){</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        x = esperance; <span class="comment">//on choisira directement l&#39;espérance si la probabilité est proche de 0,5</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">else</span>{<span class="comment">//calcul dichotomique de l&#39;abscisse correspondant à la probabilité p.</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">do</span>{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            x = (a+b)/2; <span class="comment">//milieu du segment ab</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            y = <a class="code" href="aleatoire_8c.html#a2e5d63501642f6733e1d10451717ea27">integrale_LN</a>(esperance,ecart,eps,x); <span class="comment">//Integration de la fonction de densité de la loi normale sur [esperance-ecart ; x]</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">if</span>(y&gt;p+eps){ <span class="comment">//Tant que l&#39;ordonnee est superieure a p+eps : on decale la borne superieure vers la gauche</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                b=x;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(y&lt;p-eps) { <span class="comment">//Tant que l&#39;ordonnee est inferieure a p-eps: on decale la borne inferieure vers la droite</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                a=x;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }<span class="keywordflow">while</span>(y&gt;p+eps || y&lt;p-eps); <span class="comment">//Tant que P(x) est éloignée de plus d&#39;epsilon de la probabilité générée :</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="structtemps.html">temps</a> t; t.<a class="code" href="structtemps.html#a1ede4e95d65a084e89673520a97a84e6">annee</a>=t.<a class="code" href="structtemps.html#ab128ebce0d502e4bb757e9e2fc0f2f13">mois</a>=t.<a class="code" href="structtemps.html#a6695e70643be3974198cdc71e0e56368">jour</a>=0;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> minutes = round(x); <span class="comment">//arrondissement à l&#39;entier le plus proche</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> heures = minutes/60; <span class="comment">//conversion en durée de type (temps)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    minutes-=heures*60;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    t.<a class="code" href="structtemps.html#acd9c171bf821cc269d5e398d0ef170a5">h</a>=heures; t.<a class="code" href="structtemps.html#a5c44f70d4d420ccd8bbf3667cac34022">m</a> = minutes;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> t; <span class="comment">//retour</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="aleatoire_8h.html#a47489f0e6ea66c1baf8a572e2fea78f1">   64</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="aleatoire_8c.html#a47489f0e6ea66c1baf8a572e2fea78f1">densite_LN</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> esperance, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ecart,<span class="keywordtype">double</span> x) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">//fonction intermediaire utilisee dans la fonction integrale_LN. Calcule la densité de probabilité d&#39;un événement suivant la loi normale - il faudra ensuite l&#39;intégrer.</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">double</span> sigma = ((double)ecart)/3;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">double</span> p = (1/((double)sigma * sqrt(2*<a class="code" href="aleatoire_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>)) )* ((double)exp(-(0.5) * pow((x-esperance) / ((<span class="keywordtype">double</span>)sigma),2)));</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//La densité de probabilité de la loi normale est définie comme : (1/(sigma*sqrt(2pi))*exp(-0.5 * ((x-e)/sigma)²)) avec sigma l&#39;ecart-type, e l&#39;espérance et x l&#39;abscisse.</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">return</span> p;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="aleatoire_8h.html#a2e5d63501642f6733e1d10451717ea27">   86</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="aleatoire_8c.html#a2e5d63501642f6733e1d10451717ea27">integrale_LN</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> esperance,<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ecart,<span class="keywordtype">double</span> erreur,<span class="keywordtype">double</span> bornesup) { <span class="comment">/*fonction permettant d&#39;intégrer la densité de probabilité calculée avec densite_LN</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">    On utilise la méthode des rectangles. x est la borne supérieure, (on intégre de borneinf à x) et borneinf vaut esperance-ecart*/</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">double</span> sur_eval = 0; <span class="comment">//sur-évaluation de l&#39;intégrale</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">double</span> sous_eval = 0;<span class="comment">//sous-évaluation de l&#39;intégrale</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">double</span> x = 0; <span class="comment">//abscisse dont on calcule l&#39;image pour former les rectangles</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">double</span> h = 0; <span class="comment">//(largeur d&#39;une subdivision de l&#39;axe des abscisses.</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">double</span> borneinf = esperance - ecart;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">int</span> N=2; <span class="comment">//N est initialisé à 2 (2 subdivisions de l&#39;axe des abscisses).</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> evalErreur;<span class="comment">//le booléen evalErreur permet de continuer le calcul tant que l&#39;erreur n&#39;est pas inférieur à celle indiquée en argument.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">do</span> {<span class="comment">//On calcule dans cette boucle la somme des aires des rectangles pour N subdivisions. On augmente le nombre de subdivisions à chaque tour.</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        sous_eval=0;<span class="comment">//à chaque tour de boucle, on remet les évaluations à 0.</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        sur_eval=0;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        h=((double)(bornesup-borneinf))/N;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;N;i++){<span class="comment">//On va sommer les aires des N rectangles rectangles</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            x = borneinf +i*h;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            sous_eval += <a class="code" href="aleatoire_8c.html#a47489f0e6ea66c1baf8a572e2fea78f1">densite_LN</a>(esperance,ecart,x)*h;<span class="comment">//L&#39;aire de la sous-évaluation vaut la somme des h*LoiNormale(x) pour i allant de 0 à N-1</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            sur_eval += <a class="code" href="aleatoire_8c.html#a47489f0e6ea66c1baf8a572e2fea78f1">densite_LN</a>(esperance,ecart,(x+h))*h;<span class="comment">//L&#39;aire de la sous-évaluation vaut la somme des h*LoiNormale(x+h) pour i allant de 0 à N-1</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        N++; <span class="comment">//On incrémente N pour réessayer avec plus de subdivisions pour amoindrir l&#39;erreur.</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        evalErreur = (abs(sur_eval - sous_eval)&gt;erreur); <span class="comment">//evalErrueur prend la valeur 1 si l&#39;écart entre la sur-évaluation et la sous-évalutation est plus important que l&#39;erreur maxmimale souhaitée.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">while</span> (evalErreur);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">double</span> f_moy = (sous_eval+sur_eval)/2; <span class="comment">//calcul de la moyenne de la sur-évalutation et de la sous-évaluation</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">return</span> f_moy;<span class="comment">//On choisit de retourner la moyenne qui est généralement une bonne approximation</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="aleatoire_8h.html#aff5a6e4f6445b4fbe3b166e76ed405b5">  114</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="aleatoire_8c.html#aff5a6e4f6445b4fbe3b166e76ed405b5">factorielle</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> n){</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="comment">//Fonction permettant de calculer le factioriel d&#39;un nombre : 5! = 5*4*3*2*1...</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">double</span> output=1;<span class="comment">//initialisation du réel de sortie à 1</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">int</span> i = 2;i&lt;=n;i++) {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        output*=i;<span class="comment">//multiplication du réel de sortie par chaque entier entre 2 et n inclus.</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">return</span> output; <span class="comment">// retour du réel de sortie.</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astructtemps_html_acd9c171bf821cc269d5e398d0ef170a5"><div class="ttname"><a href="structtemps.html#acd9c171bf821cc269d5e398d0ef170a5">temps::h</a></div><div class="ttdeci">unsigned char h</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00016">temps.h:16</a></div></div>
+<div class="ttc" id="astructtemps_html_a5c44f70d4d420ccd8bbf3667cac34022"><div class="ttname"><a href="structtemps.html#a5c44f70d4d420ccd8bbf3667cac34022">temps::m</a></div><div class="ttdeci">unsigned char m</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00017">temps.h:17</a></div></div>
+<div class="ttc" id="astructtemps_html"><div class="ttname"><a href="structtemps.html">temps</a></div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00012">temps.h:12</a></div></div>
+<div class="ttc" id="astructtemps_html_ab128ebce0d502e4bb757e9e2fc0f2f13"><div class="ttname"><a href="structtemps.html#ab128ebce0d502e4bb757e9e2fc0f2f13">temps::mois</a></div><div class="ttdeci">unsigned char mois</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00014">temps.h:14</a></div></div>
+<div class="ttc" id="aaleatoire_8c_html_aeed8498cbad80a2d4b08e1c78acfd73e"><div class="ttname"><a href="aleatoire_8c.html#aeed8498cbad80a2d4b08e1c78acfd73e">genererDureeTache</a></div><div class="ttdeci">temps genererDureeTache(unsigned int esperance, unsigned int ecart)</div><div class="ttdoc">Génération d'une probabilité et recherche dichotomique de son antécédent par la fonction de répartiti...</div><div class="ttdef"><b>Definition:</b> <a href="aleatoire_8c_source.html#l00018">aleatoire.c:18</a></div></div>
+<div class="ttc" id="aaleatoire_8c_html_a47489f0e6ea66c1baf8a572e2fea78f1"><div class="ttname"><a href="aleatoire_8c.html#a47489f0e6ea66c1baf8a572e2fea78f1">densite_LN</a></div><div class="ttdeci">double densite_LN(unsigned int esperance, unsigned int ecart, double x)</div><div class="ttdoc">Fonction permettant de calculer la densité de probabilité d'un instant suivant une loi normale N(éspé...</div><div class="ttdef"><b>Definition:</b> <a href="aleatoire_8c_source.html#l00064">aleatoire.c:64</a></div></div>
+<div class="ttc" id="aaleatoire_8c_html_aff5a6e4f6445b4fbe3b166e76ed405b5"><div class="ttname"><a href="aleatoire_8c.html#aff5a6e4f6445b4fbe3b166e76ed405b5">factorielle</a></div><div class="ttdeci">double factorielle(unsigned long int n)</div><div class="ttdef"><b>Definition:</b> <a href="aleatoire_8c_source.html#l00114">aleatoire.c:114</a></div></div>
+<div class="ttc" id="astructtemps_html_a6695e70643be3974198cdc71e0e56368"><div class="ttname"><a href="structtemps.html#a6695e70643be3974198cdc71e0e56368">temps::jour</a></div><div class="ttdeci">unsigned char jour</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00015">temps.h:15</a></div></div>
+<div class="ttc" id="aaleatoire_8h_html_a598a3330b3c21701223ee0ca14316eca"><div class="ttname"><a href="aleatoire_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a></div><div class="ttdeci">#define PI</div><div class="ttdef"><b>Definition:</b> <a href="aleatoire_8h_source.html#l00008">aleatoire.h:8</a></div></div>
+<div class="ttc" id="aaleatoire_8c_html_a2e5d63501642f6733e1d10451717ea27"><div class="ttname"><a href="aleatoire_8c.html#a2e5d63501642f6733e1d10451717ea27">integrale_LN</a></div><div class="ttdeci">double integrale_LN(unsigned int esperance, unsigned int ecart, double erreur, double bornesup)</div><div class="ttdoc">Intégration d'une fonction mathématique définissant une loi normale de paramètres données par la méth...</div><div class="ttdef"><b>Definition:</b> <a href="aleatoire_8c_source.html#l00086">aleatoire.c:86</a></div></div>
+<div class="ttc" id="aaleatoire_8h_html"><div class="ttname"><a href="aleatoire_8h.html">aleatoire.h</a></div></div>
+<div class="ttc" id="astructtemps_html_a1ede4e95d65a084e89673520a97a84e6"><div class="ttname"><a href="structtemps.html#a1ede4e95d65a084e89673520a97a84e6">temps::annee</a></div><div class="ttdeci">unsigned short int annee</div><div class="ttdef"><b>Definition:</b> <a href="temps_8h_source.html#l00013">temps.h:13</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>
